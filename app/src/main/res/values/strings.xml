@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">闰土</string>
+    <string name="login_username_hint">请输入账号</string>
+    <string name="login_password_hint">请输入密码</string>
+    <string name="login_protocol">我同意《閏土电商协议》并遵守规则</string>
+    <string name="forget_password">忘记密码?</string>
+    <string name="regist">注册</string>
+    <string name="regist_phone_num_hint">11位手机号码</string>
+    <string name="regist_phone_vc_hint">手机验证码</string>
+    <string name="pwd_hint">6-32位密码</string>
+    <string name="confirm_pwd_hint">请再次输入密码</string>
+    <string name="password">密码</string>
+    <string name="personal_center">个人中心</string>
+    <string name="business_dynamics">客商动态</string>
+    <string name="circulation_of_property_rights">产权流转</string>
+    <string name="rural_tourism">乡村旅游</string>
+    <string name="logistics_distribution">物流直配</string>
+    <string name="entrepreneurship_training">创业培训</string>
+    <string name="online_market">农资农机在线市场</string>
+
+    <string name="quality_resources">优质资源</string>
+    <string name="credit_transaction">诚信交易</string>
+    <string name="security_deposit">押金保障</string>
+    <string name="authentication">实名认证</string>
+
+
+</resources>
