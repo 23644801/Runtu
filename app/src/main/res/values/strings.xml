@@ -39,5 +39,11 @@
     <string name="get_permission_msg">应用程序需要下列权限才能正确运行。请授权。</string>
     <string name="get_permission_fail_msg">未能获得权限，应用程序将退出</string>
     <string name="denied_permission_msg">如果应用程序没有访问相关权限，此应用程序可能无法正常工作。打开应用程序设置来修改应用程序权限。</string>
+    <string name="version_description">版本说明</string>
+    <string name="help">帮助</string>
+    <string name="other_user_login">其他用户登录</string>
+    <string name="suggestions">意见反馈</string>
+    <string name="message_notification">消息通知</string>
+    <string name="about_us">关于我们</string>
 
 </resources>
