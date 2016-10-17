@@ -2,6 +2,12 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.mac.runtu">
 
+    <!-- if you want to load images from the internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- if you want to load images from a file OR from the internet -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/logo"
@@ -11,13 +17,15 @@
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegistActivity" />
+        <activity android:name=".RegistOneActivity" />
+        <activity android:name=".RegistTwoActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".ForgetPwdActivity"></activity>
+        <activity android:name=".ForgetOnePwdActivity" />
+        <activity android:name=".ForgetTwoPwdActivity" />
+        <activity android:name=".PersonalCenterActitity"></activity>
     </application>
 
 </manifest>

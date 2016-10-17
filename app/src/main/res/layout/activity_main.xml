@@ -22,6 +22,7 @@
 
 
         <LinearLayout
+            android:id="@+id/personal_center_Ll"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
@@ -31,7 +32,6 @@
             android:orientation="vertical">
 
             <ImageView
-                android:id="@+id/personal_center_Iv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/personal_center" />
@@ -48,7 +48,7 @@
     <com.youth.banner.Banner
         android:id="@+id/banner"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="200dp"
         android:layout_alignParentLeft="true"
         android:background="#ffffff"
         android:layout_below="@+id/title_LL" />
@@ -184,6 +184,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/ef_Iv"
+        android:scaleType="fitXY"
         android:layout_marginTop="10dp"
         android:src="@drawable/specialty_electricity_suppliers" />
 
@@ -192,6 +193,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/lsc_Iv"
+        android:scaleType="fitXY"
         android:src="@drawable/experience_farm" />
 
     <ImageView
@@ -200,6 +202,7 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/bottom_LL"
         android:layout_marginBottom="10dp"
+        android:scaleType="fitXY"
         android:src="@drawable/labor_service_cooperation" />
 
 
