@@ -49,7 +49,7 @@
         android:layout_centerHorizontal="true"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        android:padding="15dp"
+        android:paddingTop="15dp"
         android:layout_marginBottom="100dp">
         <EditText
             android:id="@+id/editText1"
