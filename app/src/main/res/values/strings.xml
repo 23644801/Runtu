@@ -33,7 +33,16 @@
     <string name="my_adoption">我的领养</string>
     <string name="setting">设置</string>
     <string name="contact_customer_service">联系客服</string>
+
+    <!--订单-->
     <string name="show_all_order">查看所有订单</string>
+    <string name="order_state">状态：</string>
+    <string name="order_totle_price">总价：</string>
+    <string name="order_seach_hint">商品名称/商品编号/订单号</string>
+    <string name="all_orders">全部订单</string>
+    <string name="pending_payment_order">待付款</string>
+    <string name="receipt_of_goods_order">待收货</string>
+    <string name="completed_order">已完成</string>
 
     <string name="cancel">取消</string>
     <string name="get_permission_msg">应用程序需要下列权限才能正确运行。请授权。</string>
