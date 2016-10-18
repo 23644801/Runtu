@@ -46,5 +46,12 @@
     <string name="message_notification">消息通知</string>
     <string name="about_us">关于我们</string>
     <string name="phone_qq">手机或QQ</string>
+    <string name="logo_down_font">闰土，给您天然的味道！</string>
+    <string name="tow_code_down_font">让您的朋友扫描二维码，就可以下载闰土客户端！</string>
+    <string name="special_declaration">特别声明</string>
+    <string name="latest_version">最新版本</string>
+    <string name="version_number">V1.0.0</string>
+    <string name="statement_content">闰土再次声明，您通过本软件参加的商业活动，与Applelnc.无关</string>
+
 
 </resources>
