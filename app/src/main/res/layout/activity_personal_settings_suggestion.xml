@@ -55,8 +55,9 @@
             android:id="@+id/editText1"
             android:background="@android:color/white"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:textSize="100dp"/>
+            android:layout_height="wrap_content"
+            android:lines="5"
+            android:gravity="start"/>
         <View
             android:id="@+id/view"
             android:layout_width="match_parent"
