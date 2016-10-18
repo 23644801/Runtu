@@ -53,16 +53,249 @@
         android:padding="15dp"
         android:layout_below="@+id/relativeLayout1"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="50dp">
+        android:layout_marginBottom="30dp">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@android:color/white">
+            android:background="@android:color/white"
+            android:orientation="vertical"
+            android:padding="10dp">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="123"/>
+                android:text="@string/help_question1"
+                android:textStyle="bold"
+                android:textSize="15dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="@string/help_question1_case_as_follows"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:stretchColumns="1">
 
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingTop="5dp">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@null"
+                        android:text="@string/help_question1_case1"/>
+
+                    <TextView
+                        android:layout_column="2"
+                        android:background="@null"
+                        android:gravity="center_vertical|right"
+                        android:text="@string/help_question1_case1_result"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@null"
+                        android:text="@string/help_question1_case2"/>
+
+                    <TextView
+                        android:layout_column="2"
+                        android:background="@null"
+                        android:gravity="center_vertical|right"
+                        android:text="@string/help_question1_case2_result"/>
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@null"
+                        android:text="@string/help_question1_case3"/>
+
+                    <TextView
+                        android:layout_column="2"
+                        android:background="@null"
+                        android:gravity="center_vertical|right"
+                        android:text="@string/help_question1_case3_result"/>
+                </TableRow>
+            </TableLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/help_question2"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:paddingTop="10dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:text="@string/help_question2_case_as_follows"/>
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical|right"
+                android:stretchColumns="1">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingTop="5dp">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@null"
+                        android:text="@string/help_question2_case1"/>
+
+                    <TextView
+                        android:layout_column="2"
+                        android:background="@null"
+                        android:gravity="center_vertical|right"
+                        android:text="@string/help_question2_case1_result"/>
+
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@null"
+                        android:text="@string/help_question2_case2"/>
+
+                    <TextView
+                        android:layout_column="2"
+                        android:background="@null"
+                        android:gravity="center_vertical|right"
+                        android:text="@string/help_question2_case2_result"/>
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@null"
+                        android:text="@string/help_question2_case3"/>
+
+                    <TextView
+                        android:layout_column="2"
+                        android:background="@null"
+                        android:gravity="center_vertical|right"
+                        android:text="@string/help_question2_case3_result"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@null"
+                        android:text="@string/help_question2_case4"/>
+
+                    <TextView
+                        android:layout_column="2"
+                        android:background="@null"
+                        android:gravity="center_vertical|right"
+                        android:text="@string/help_question2_case4_result"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@null"
+                        android:text="@string/help_question2_case5"/>
+
+                    <TextView
+                        android:layout_column="2"
+                        android:background="@null"
+                        android:gravity="center_vertical|right"
+                        android:text="@string/help_question2_case5_result"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@null"
+                        android:text="@string/help_question2_case6"/>
+
+                    <TextView
+                        android:layout_column="2"
+                        android:background="@null"
+                        android:gravity="center_vertical|right"
+                        android:text="@string/help_question2_case6_result"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@null"
+                        android:text="@string/help_question2_case7"/>
+
+                    <TextView
+                        android:layout_column="2"
+                        android:background="@null"
+                        android:gravity="center_vertical|right"
+                        android:text="@string/help_question2_case7_result"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@null"
+                        android:text="@string/help_question2_case8"/>
+
+                    <TextView
+                        android:layout_column="2"
+                        android:background="@null"
+                        android:gravity="center_vertical|right"
+                        android:text="@string/help_question2_case8_result"/>
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp">
+
+                    <TextView
+                        android:layout_column="1"
+                        android:background="@null"
+                        android:text="@string/help_question2_case9"/>
+
+                    <TextView
+                        android:layout_column="2"
+                        android:background="@null"
+                        android:gravity="center_vertical|right"
+                        android:text="@string/help_question2_case9_result"/>
+                </TableRow>
+            </TableLayout>
         </LinearLayout>
 
     </LinearLayout>
