@@ -62,8 +62,8 @@
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#2b2b2b"
-            android:src="@drawable/logo"/>
+            android:src="@drawable/two_code"
+            android:paddingTop="10dp"/>
         <TextView
             android:paddingTop="10dp"
             android:layout_width="wrap_content"
