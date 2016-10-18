@@ -17,6 +17,7 @@
         <activity android:name=".LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
@@ -25,10 +26,9 @@
         <activity android:name=".MainActivity" />
         <activity android:name=".ForgetOnePwdActivity" />
         <activity android:name=".ForgetTwoPwdActivity" />
-        <activity android:name=".PersonalCenterActitity"></activity>
-        <activity android:name=".PersonalCenterSettingActivity"></activity>
-
-
+        <activity android:name=".PersonalCenterActitity" />
+        <activity android:name=".PersonalCenterSettingActivity" />
+        <activity android:name=".OrderActivity"></activity>
     </application>
 
 </manifest>

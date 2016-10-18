@@ -5,4 +5,6 @@
     <color name="colorAccent">#FF4081</color>
     <color name="titlebg">#ff9900</color>
     <color name="contentbg">#f5f5f5</color>
+    <color name="order_state_text_color">#67bdfe</color>
+    <color name="order_price_text_color">#ce3a38</color>
 </resources>

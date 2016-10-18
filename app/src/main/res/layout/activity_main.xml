@@ -10,6 +10,7 @@
         android:id="@+id/title_LL"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:gravity="center_vertical"
         android:padding="5dp">
 
         <ImageView
@@ -48,9 +49,11 @@
     <com.youth.banner.Banner
         android:id="@+id/banner"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
         android:layout_alignParentLeft="true"
         android:background="#ffffff"
+        android:layout_above="@+id/menu_LL"
         android:layout_below="@+id/title_LL" />
 
     <LinearLayout

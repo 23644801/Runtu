@@ -44,6 +44,7 @@ public class PersonalCenterActitity extends AppCompatActivity {
             case R.id.manage_site_Iv:
                 break;
             case R.id.order_details_Tr:
+                startActivity(new Intent(PersonalCenterActitity.this, OrderActivity.class));
                 break;
             case R.id.personal_center_Tr:
                 startActivity(new Intent(PersonalCenterActitity.this, PersonalCenterSettingActivity.class));
