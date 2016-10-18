@@ -52,6 +52,7 @@ public class PersonalCenterActitity extends AppCompatActivity {
             case R.id.my_release_Tr:
                 break;
             case R.id.setting_Tr:
+                startActivity(new Intent(PersonalCenterActitity.this, PersonalCenterSettingActivity.class));
                 break;
             case R.id.service_Tr:
                 break;

@@ -28,7 +28,11 @@
         <activity android:name=".ForgetTwoPwdActivity" />
         <activity android:name=".PersonalCenterActitity" />
         <activity android:name=".PersonalCenterSettingActivity" />
-        <activity android:name=".OrderActivity"></activity>
+        <activity android:name=".OrderActivity" />
+        <activity android:name=".VersionActivity" />
+        <activity android:name=".HelpActivity" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".SuggestionActivity"></activity>
     </application>
 
 </manifest>
