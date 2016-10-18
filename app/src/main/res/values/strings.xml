@@ -53,6 +53,33 @@
     <string name="version_number">V1.0.0</string>
     <string name="statement_content">闰土再次声明，您通过本软件参加的商业活动，与Applelnc.无关</string>
     <string name="aboutus_content">\t\t闰土电商是响应国家互联网+政策号召打造的互联网农业综合平台，目标是打通“城市-农村”信息化对接通道，解决农产品供求不畅的矛盾，构建以信息化平台为核心的农产品信息发布和交易服务体系。农卖网实行全免费的运营模式，具有信息发布及时、针对性强、覆盖面广的特色，可以实现网上供求信息的智能匹配和在线交易服务，其农业招商信息及时发布和简易上手的搜索功能可帮助供求双方快速捕获商机。</string>
-
+    <string name="help_question1">问：我的信用为什么会减少？</string>
+    <string name="help_question1_case_as_follows">信用减少的原因如下：</string>
+    <string name="help_question1_case1">被用户举报违规信息并被确认属实</string>
+    <string name="help_question1_case1_result">-1</string>
+    <string name="help_question1_case2">信息判为中介</string>
+    <string name="help_question1_case2_result">-3</string>
+    <string name="help_question1_case3">锁定账户</string>
+    <string name="help_question1_case3_result">信用减半</string>
+    <string name="help_question2">问：如何增加信用？</string>
+    <string name="help_question2_case_as_follows">信用可以通过以下方式增加：</string>
+    <string name="help_question2_case1">邮箱验证</string>
+    <string name="help_question2_case1_result">+50</string>
+    <string name="help_question2_case2">从业资格证书验证</string>
+    <string name="help_question2_case2_result">+100</string>
+    <string name="help_question2_case3">企业验证</string>
+    <string name="help_question2_case3_result">+210</string>
+    <string name="help_question2_case4">生活服务网邻通用户第一年赠送</string>
+    <string name="help_question2_case4_result">+150</string>
+    <string name="help_question2_case5">生活服务网邻通用户第二年赠送</string>
+    <string name="help_question2_case5_result">+200</string>
+    <string name="help_question2_case6">生活服务网邻通用户第三年赠送</string>
+    <string name="help_question2_case6_result">+200</string>
+    <string name="help_question2_case7">手机验证</string>
+    <string name="help_question2_case7_result">+100</string>
+    <string name="help_question2_case8">身份验证</string>
+    <string name="help_question2_case8_result">+150</string>
+    <string name="help_question2_case9">置顶在线时间满100小时（可累计）</string>
+    <string name="help_question2_case9_result">+5</string>
 
 </resources>
