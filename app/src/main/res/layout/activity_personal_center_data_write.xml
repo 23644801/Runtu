@@ -258,7 +258,7 @@
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/input_layout"
                 android:layout_marginTop="20dp"
-                android:src="@drawable/reg_reg_btn" />
+                android:src="@drawable/personal_data_submit" />
 
         </LinearLayout>
     </LinearLayout>
