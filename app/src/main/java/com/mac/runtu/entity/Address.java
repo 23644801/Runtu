@@ -7,7 +7,7 @@ public class Address {
     String province;
     String city;
     String area;
-    String street;
+    String other;
 
     public String getProvince() {
         return province;
@@ -33,11 +33,16 @@ public class Address {
         this.area = area;
     }
 
-    public String getStreet() {
-        return street;
+    public String getOther() {
+        return other;
     }
 
-    public void setStreet(String street) {
-        this.street = street;
+    public void setOther(String other) {
+        this.other = other;
+    }
+
+    @Override
+    public String toString() {
+        return province + " " + city + " " + area +" "+other;
     }
 }

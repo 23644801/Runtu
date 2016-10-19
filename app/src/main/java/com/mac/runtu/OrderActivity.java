@@ -1,5 +1,6 @@
 package com.mac.runtu;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -73,6 +74,15 @@ public class OrderActivity extends AppCompatActivity {
                 viewHolder.setText(R.id.order_product_name_Tv, item.getName());
                 if (item.getState() == Order.State.receipt_of_goods) {
                     viewHolder.setText(R.id.state_Tv, "代收货");
+                }
+
+                if(item.getState() == Order.State.pending_payment){
+                    viewHolder.setOnClickListener(R.id.order_pay_Iv, new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            startActivity(new Intent(OrderActivity.this,OrderPayActivity.class));
+                        }
+                    });
                 }
             }
         });

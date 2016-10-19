@@ -32,7 +32,10 @@
         <activity android:name=".VersionActivity" />
         <activity android:name=".HelpActivity" />
         <activity android:name=".AboutUsActivity" />
-        <activity android:name=".SuggestionActivity"></activity>
+        <activity android:name=".SuggestionActivity" />
+        <activity android:name=".OrderPayActivity" />
+        <activity android:name=".ManageReceiptAddressActivity" />
+        <activity android:name=".AddReceiptAddressActivity"></activity>
     </application>
 
 </manifest>
