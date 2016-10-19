@@ -1,4 +1,4 @@
-package com.mac.runtu;
+package com.mac.runtu.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.TableRow;
 
 import com.leaking.slideswitch.SlideSwitch;
+import com.mac.runtu.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

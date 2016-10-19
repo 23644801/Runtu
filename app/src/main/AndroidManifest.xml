@@ -14,28 +14,29 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LoginActivity">
+        <activity android:name=".activity.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegistOneActivity" />
-        <activity android:name=".RegistTwoActivity" />
-        <activity android:name=".MainActivity" />
-        <activity android:name=".ForgetOnePwdActivity" />
-        <activity android:name=".ForgetTwoPwdActivity" />
-        <activity android:name=".PersonalCenterActitity" />
-        <activity android:name=".PersonalCenterSettingActivity" />
-        <activity android:name=".OrderActivity" />
-        <activity android:name=".VersionActivity" />
-        <activity android:name=".HelpActivity" />
-        <activity android:name=".AboutUsActivity" />
-        <activity android:name=".SuggestionActivity" />
-        <activity android:name=".OrderPayActivity" />
-        <activity android:name=".ManageReceiptAddressActivity" />
-        <activity android:name=".AddReceiptAddressActivity"></activity>
+        <activity android:name=".activity.RegistOneActivity" />
+        <activity android:name=".activity.RegistTwoActivity" />
+        <activity android:name=".activity.MainActivity" />
+        <activity android:name=".activity.ForgetOnePwdActivity" />
+        <activity android:name=".activity.ForgetTwoPwdActivity" />
+        <activity android:name=".activity.PersonalCenterActitity" />
+        <activity android:name=".activity.PersonalCenterSettingActivity" />
+        <activity android:name=".activity.OrderActivity" />
+        <activity android:name=".activity.VersionActivity" />
+        <activity android:name=".activity.HelpActivity" />
+        <activity android:name=".activity.AboutUsActivity" />
+        <activity android:name=".activity.SuggestionActivity" />
+        <activity android:name=".activity.OrderPayActivity" />
+        <activity android:name=".activity.ManageReceiptAddressActivity" />
+        <activity android:name=".activity.AddReceiptAddressActivity" />
+        <activity android:name=".activity.PersonalInfoActivity"></activity>
     </application>
 
 </manifest>

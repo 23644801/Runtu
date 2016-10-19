@@ -1,4 +1,4 @@
-package com.mac.runtu;
+package com.mac.runtu.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TableRow;
+
+import com.mac.runtu.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -47,7 +49,7 @@ public class PersonalCenterActitity extends AppCompatActivity {
                 startActivity(new Intent(PersonalCenterActitity.this, OrderActivity.class));
                 break;
             case R.id.personal_center_Tr:
-                startActivity(new Intent(PersonalCenterActitity.this, PersonalCenterSettingActivity.class));
+                startActivity(new Intent(PersonalCenterActitity.this, PersonalInfoActivity.class));
                 break;
             case R.id.my_release_Tr:
                 break;

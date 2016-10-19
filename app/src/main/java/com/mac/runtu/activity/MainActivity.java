@@ -1,4 +1,4 @@
-package com.mac.runtu;
+package com.mac.runtu.activity;
 
 import android.Manifest;
 import android.content.Context;
@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
 
+import com.mac.runtu.R;
 import com.squareup.picasso.Picasso;
 import com.youth.banner.Banner;
 import com.youth.banner.BannerConfig;

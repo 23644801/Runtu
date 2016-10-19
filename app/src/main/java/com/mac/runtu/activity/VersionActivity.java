@@ -1,14 +1,16 @@
-package com.mac.runtu;
+package com.mac.runtu.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.widget.ImageView;
 
+import com.mac.runtu.R;
+
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class ForgetTwoPwdActivity extends AppCompatActivity {
+public class VersionActivity extends AppCompatActivity {
 
     @BindView(R.id.back_Iv)
     ImageView backIv;
@@ -16,7 +18,7 @@ public class ForgetTwoPwdActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_forget_pwd2);
+        setContentView(R.layout.activity_personal_settings_version);
         ButterKnife.bind(this);
     }
 

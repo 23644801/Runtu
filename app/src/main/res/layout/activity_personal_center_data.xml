@@ -2,8 +2,9 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:slideswitch="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
-    android:background="@color/contentbg"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/contentbg">
+
     <RelativeLayout
         android:id="@+id/relativeLayout1"
         android:layout_width="match_parent"
@@ -41,6 +42,7 @@
             android:scaleType="centerInside"
             android:src="@drawable/logo" />
     </RelativeLayout>
+
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="match_parent"
@@ -79,8 +81,8 @@
                     android:layout_height="wrap_content"
                     android:layout_column="2"
                     android:layout_gravity="right|center_vertical"
-                    android:src="@drawable/personal_data_head_portrait"
-                    android:paddingRight="10dp"/>
+                    android:paddingRight="10dp"
+                    android:src="@drawable/personal_data_head_portrait" />
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -118,8 +120,8 @@
                     android:layout_height="wrap_content"
                     android:layout_column="2"
                     android:layout_gravity="right|center_vertical"
-                    android:text="@string/nickname_data"
-                    android:paddingRight="10dp"/>
+                    android:paddingRight="10dp"
+                    android:text="@string/nickname_data" />
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -157,8 +159,8 @@
                     android:layout_height="wrap_content"
                     android:layout_column="2"
                     android:layout_gravity="right|center_vertical"
-                    android:text="@string/real_name_data"
-                    android:paddingRight="20dp"/>
+                    android:paddingRight="20dp"
+                    android:text="@string/real_name_data" />
             </TableRow>
 
             <View
@@ -187,8 +189,8 @@
                     android:layout_height="wrap_content"
                     android:layout_column="2"
                     android:layout_gravity="right|center_vertical"
-                    android:text="@string/sex_data_male"
-                    android:paddingRight="20dp"/>
+                    android:paddingRight="20dp"
+                    android:text="@string/sex_data_male" />
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -224,8 +226,8 @@
                     android:layout_height="wrap_content"
                     android:layout_column="2"
                     android:layout_gravity="right|center_vertical"
-                    android:text="@string/identity_data"
-                    android:paddingRight="20dp"/>
+                    android:paddingRight="20dp"
+                    android:text="@string/identity_data" />
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -235,6 +237,7 @@
                     android:paddingRight="40dp"
                     android:src="@drawable/setting_down_arrow" />
             </TableRow>
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="0.5dp"
@@ -260,8 +263,8 @@
                     android:layout_height="wrap_content"
                     android:layout_column="2"
                     android:layout_gravity="right|center_vertical"
-                    android:text="@string/date_of_birth_data"
-                    android:paddingRight="20dp"/>
+                    android:paddingRight="20dp"
+                    android:text="@string/date_of_birth_data" />
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -271,6 +274,7 @@
                     android:paddingRight="40dp"
                     android:src="@drawable/setting_down_arrow" />
             </TableRow>
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="0.5dp"
@@ -290,9 +294,11 @@
                     android:drawablePadding="15dp"
                     android:text="@string/address_information"
                     android:textSize="15sp" />
+
                 <LinearLayout
-                    android:layout_height="wrap_content"
-                    android:layout_width="wrap_content">
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -306,6 +312,7 @@
                         android:layout_column="2"
                         android:layout_gravity="right|center_vertical"
                         android:src="@drawable/setting_down_arrow" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -319,6 +326,7 @@
                         android:layout_column="2"
                         android:layout_gravity="right|center_vertical"
                         android:src="@drawable/setting_down_arrow" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -332,6 +340,7 @@
                         android:layout_column="2"
                         android:layout_gravity="right|center_vertical"
                         android:src="@drawable/setting_down_arrow" />
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -347,6 +356,7 @@
                         android:src="@drawable/setting_down_arrow" />
                 </LinearLayout>
             </TableRow>
+
             <View
                 android:layout_width="match_parent"
                 android:layout_height="0.5dp"
@@ -372,8 +382,8 @@
                     android:layout_height="wrap_content"
                     android:layout_column="2"
                     android:layout_gravity="left|center_vertical"
-                    android:text="@string/registered_mobile_phone_data"
-                    android:paddingLeft="5dp"/>
+                    android:paddingLeft="5dp"
+                    android:text="@string/registered_mobile_phone_data" />
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -385,9 +395,9 @@
             </TableRow>
 
             <View
-            android:layout_width="match_parent"
-            android:layout_height="0.5dp"
-            android:background="#B7B7B7" />
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#B7B7B7" />
 
             <TableRow
                 android:id="@+id/version_Tr"
@@ -410,9 +420,9 @@
                     android:layout_height="wrap_content"
                     android:layout_column="2"
                     android:layout_gravity="left|center_vertical"
-                    android:text="123"
                     android:inputType="textPassword"
-                    android:paddingLeft="5dp"/>
+                    android:paddingLeft="5dp"
+                    android:text="123" />
 
                 <ImageView
                     android:layout_width="wrap_content"
@@ -422,7 +432,6 @@
                     android:paddingRight="40dp"
                     android:src="@drawable/setting_right_arrow" />
             </TableRow>
-
 
 
         </TableLayout>

@@ -3,14 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/contentbg"
-    tools:context="com.mac.runtu.PersonalCenterActitity">
+    android:background="@color/contentbg">
 
     <LinearLayout
         android:id="@+id/linearLayout2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         android:background="@color/titlebg"
         android:orientation="vertical">
@@ -36,16 +34,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="5dp"
             android:layout_marginBottom="10dp"
-            android:src="@drawable/personal_center_manage_site"/>
+            android:layout_marginTop="5dp"
+            android:src="@drawable/personal_center_manage_site" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
         android:layout_below="@+id/linearLayout2"
         android:orientation="horizontal"
         android:weightSum="3">
@@ -99,7 +96,6 @@
     <TableLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
         android:layout_below="@+id/linearLayout3">
 
         <TableRow
@@ -124,9 +120,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_column="2"
-                android:drawableRight="@drawable/personal_center_right"
-                android:drawablePadding="5dp"
                 android:layout_weight="1"
+                android:drawablePadding="5dp"
+                android:drawableRight="@drawable/personal_center_right"
                 android:gravity="right"
                 android:text="@string/show_all_order" />
 
@@ -158,8 +154,8 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/personal_center_right"
                 android:layout_gravity="right"
+                android:src="@drawable/personal_center_right"
                 android:text=">" />
 
         </TableRow>
@@ -190,8 +186,8 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/personal_center_right"
                 android:layout_gravity="right"
+                android:src="@drawable/personal_center_right"
                 android:text=">" />
 
         </TableRow>
@@ -202,7 +198,7 @@
             android:background="#B7B7B7" />
 
         <TableRow
-            android:id="@+id/setting_Tr"
+            android:id="@+id/my_adoption"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
@@ -222,8 +218,8 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/personal_center_right"
                 android:layout_gravity="right"
+                android:src="@drawable/personal_center_right"
                 android:text=">" />
 
         </TableRow>
@@ -235,10 +231,10 @@
             android:background="#B7B7B7" />
 
         <TableRow
+            android:id="@+id/setting_Tr"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center_vertical"
-            android:id="@+id/service_Tr"
             android:padding="10dp">
 
             <TextView
@@ -255,8 +251,8 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:src="@drawable/personal_center_right"
                 android:layout_gravity="right"
+                android:src="@drawable/personal_center_right"
                 android:text=">" />
 
         </TableRow>
@@ -267,6 +263,7 @@
             android:background="#B7B7B7" />
 
         <TableRow
+            android:id="@+id/service_Tr"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:gravity="center_vertical"

@@ -3,8 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F5F5F5"
-    tools:context="com.mac.runtu.MainActivity">
+    android:background="#F5F5F5">
 
     <RelativeLayout
         android:id="@+id/title_LL"
@@ -50,11 +49,11 @@
         android:id="@+id/banner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="10dp"
-        android:layout_alignParentLeft="true"
-        android:background="#ffffff"
         android:layout_above="@+id/menu_LL"
-        android:layout_below="@+id/title_LL" />
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/title_LL"
+        android:layout_marginBottom="10dp"
+        android:background="#ffffff" />
 
     <LinearLayout
         android:id="@+id/menu_LL"
@@ -187,8 +186,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/ef_Iv"
-        android:scaleType="fitXY"
         android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
         android:src="@drawable/specialty_electricity_suppliers" />
 
     <ImageView

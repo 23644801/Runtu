@@ -1,4 +1,4 @@
-package com.mac.runtu;
+package com.mac.runtu.activity;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.Toast;
 
+import com.mac.runtu.R;
 import com.mac.runtu.entity.Address;
 import com.mac.runtu.entity.ReceiptAddress;
 import com.mac.runtu.entity.ReceiptUser;
