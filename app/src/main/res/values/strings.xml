@@ -43,24 +43,6 @@
     <string name="pending_payment_order">待付款</string>
     <string name="receipt_of_goods_order">待收货</string>
     <string name="completed_order">已完成</string>
-    <string name="confirm_the_payment">确认付款</string>
-    <string name="change">更改</string>
-    <string name="amount">购买数量</string>
-    <string name="total_commodity_price">商品价格合计：</string>
-    <string name="distribution_mode">配送方式：</string>
-    <string name="postage">邮费：</string>
-    <string name="total_price">价格合计：</string>
-
-    <!-- 收货地址 -->
-    <string name="manage_receipt_address">管理收货地址</string>
-    <string name="set_as_default_address">设为默认地址</string>
-    <string name="delete">删除</string>
-    <string name="add_new_address">添加新地址</string>
-    <string name="add_receipt_phone_number">联系电话：</string>
-    <string name="consignee">收货人：</string>
-    <string name="local_area">所在地区：</string>
-    <string name="detailed_address_hint">请填写详细地址</string>
-
 
     <string name="cancel">取消</string>
     <string name="get_permission_msg">应用程序需要下列权限才能正确运行。请授权。</string>
@@ -130,4 +112,15 @@
     <string name="address_information_district_and_county">区县</string>
     <string name="address_information_Town">镇</string>
     <string name="registered_mobile_phone_data">15686036075</string>
+
+    <string name="write_personal_nickname">个人昵称：</string>
+    <string name="write_real_name">真实姓名:</string>
+    <string name="write_sex">性别：</string>
+    <string name="write_identity">身份选择：</string>
+    <string name="write_date_of_birth">出生日期:</string>
+    <string name="write_email">邮箱：</string>
+    <string name="write_address_information">地址信息：</string>
+    <string name="write_head_portrait">个人头像：</string>
+
+
 </resources>
