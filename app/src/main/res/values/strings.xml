@@ -91,4 +91,25 @@
     <string name="help_question2_case9">置顶在线时间满100小时（可累计）</string>
     <string name="help_question2_case9_result">+5</string>
 
+    <string name="head_portrait">头像</string>
+    <string name="nickname">昵称</string>
+    <string name="real_name">真实姓名</string>
+    <string name="sex">性别</string>
+    <string name="identity">身份</string>
+    <string name="date_of_birth">出生日期</string>
+    <string name="address_information">地址信息</string>
+    <string name="registered_mobile_phone">注册手机</string>
+    <string name="password_modification">密码修改</string>
+
+    <string name="nickname_data">洛川果哥</string>
+    <string name="real_name_data">吴江</string>
+    <string name="sex_data_male">男</string>
+    <string name="sex_data_female">女</string>
+    <string name="identity_data">果农</string>
+    <string name="date_of_birth_data">1975-05-23</string>
+    <string name="address_information_province">省</string>
+    <string name="address_information_city">市</string>
+    <string name="address_information_district_and_county">区县</string>
+    <string name="address_information_Town">镇</string>
+    <string name="registered_mobile_phone_data">15686036075</string>
 </resources>
