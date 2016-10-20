@@ -154,6 +154,24 @@
     <string name="year">年</string>
     <string name="million_yuan">万元</string>
 
+    <string name="input_release_property_details">请输入发布的产权详情</string>
+    <string name="title">标题</string>
+    <string name="detailed_description">详细说明</string>
+    <string name="release_person">发布人</string>
+    <string name="contact_information">联系方式</string>
+    <string name="verification_code">验证码</string>
+    <string name="add_photos">添加照片</string>
+
+    <string name="input_name">请输入姓名</string>
+    <string name="input_mobile_phone_number">请输入手机号</string>
+    <string name="input_title">请输入标题</string>
+    <string name="input_verification_code">请输入验证码</string>
+    <string name="get_verification_code">获取验证码</string>
+    <string name="input_detailed_description">请输入详细说明</string>
+    <string name="add_photos_describe">有照片的电话量会提高50%</string>
+
+
+
 
 
 </resources>
