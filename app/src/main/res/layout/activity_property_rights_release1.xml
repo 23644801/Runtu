@@ -187,7 +187,9 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center_vertical">
+                android:gravity="center_vertical"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
 
                 <ImageView
                     android:layout_column="0"
@@ -207,7 +209,9 @@
                     android:hint="@string/please_input"
                     android:textSize="15dp"
                     android:layout_gravity="right|center_vertical"
-                    android:layout_marginLeft="50dp"/>
+                    android:layout_marginLeft="50dp"
+                    android:background="@null"
+                    android:paddingRight="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -216,10 +220,16 @@
                     android:layout_gravity="left|center_vertical"/>
 
             </TableRow>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#B7B7B7" />
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center_vertical">
+                android:gravity="center_vertical"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
 
                 <ImageView
                     android:layout_column="0"
@@ -239,7 +249,9 @@
                     android:hint="@string/please_input"
                     android:layout_gravity="right|center_vertical"
                     android:layout_marginLeft="50dp"
-                    android:textSize="15dp"/>
+                    android:textSize="15dp"
+                    android:background="@null"
+                    android:paddingRight="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -256,7 +268,9 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:gravity="center_vertical">
+                android:gravity="center_vertical"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
 
                 <ImageView
                     android:layout_column="0"
@@ -276,7 +290,9 @@
                     android:hint="@string/please_input"
                     android:textSize="15dp"
                     android:layout_gravity="right|center_vertical"
-                    android:layout_marginLeft="40dp"/>
+                    android:layout_marginLeft="40dp"
+                    android:background="@null"
+                    android:paddingRight="10dp"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
