@@ -310,7 +310,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/table_LL"
             android:src="@drawable/release_next_step"
-            android:paddingTop="10dp"/>
+            android:paddingTop="20dp"/>
     </LinearLayout>
 
 
