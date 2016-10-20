@@ -139,5 +139,21 @@
     <string name="write_address_information">地址信息：</string>
     <string name="write_head_portrait">个人头像：</string>
 
+    <string name="want_release">我要发布</string>
+    <string name="choice_release_content">选择要发布的产权内容</string>
+    <string name="property_type">产权类型</string>
+    <string name="property_position">产权位置</string>
+    <string name="transfer_mode">流转方式</string>
+    <string name="measure_area">面积</string>
+    <string name="transfer_term">流转年限</string>
+    <string name="price">价格</string>
+    <string name="release_time">发布时间</string>
+
+    <string name="please_input">请输入</string>
+    <string name="mu">亩</string>
+    <string name="year">年</string>
+    <string name="million_yuan">万元</string>
+
+
 
 </resources>
