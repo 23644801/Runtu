@@ -200,4 +200,19 @@
     <string name="i_am_household">我是农户</string>
     <string name="select_release_type_byidentity">根据您的身份选择要发布的类型</string>
 
+    <string name="entrepreneurship_training">创业培训</string>
+    <string name="right_arrow">></string>
+    <string name="entrepreneurship_training_title_city">延安</string>
+    <string name="entrepreneurship_training_title_county">洛川</string>
+    <string name="entrepreneurship_training_content_title">陕西青年农场主培训班11日开班</string>
+    <string name="entrepreneurship_training_release_time">发布时间：</string>
+    <string name="entrepreneurship_training_release_time_data">2016-09-12</string>
+    <string name="entrepreneurship_training_browse_volume">浏览量</string>
+    <string name="entrepreneurship_training_browse_volume_data">86</string>
+    <string name="entrepreneurship_training_content_data">根据《陕西省“现代青年农场主计划”实施方案》的通知要求，结合我省实际，团省委、省农业厅、省教育厅计划2016年在陕西省团校培育100名现代青年农场主，现面向全省种养大户、家庭农场经营者、农民合作社骨干根据《陕西省“现代青年农场主计划”实施方案》的通知要求，结合我省实际，团省委、省农业厅、省教育厅计划2016年在陕西省团校培育100名现代青年农场主，现面向全省种养大户、家庭农场经营者、农民合作社骨干根据《陕西省“现代青年农场主计划”实施方案》的通知要求，结合我省实际，团省委、省农业厅、省教育厅计划2016年在陕西省团校培育100名现代青年农场主，现面向全省种养大户、家庭农场经营者、农民合作社骨干</string>
+    <string name="entrepreneurship_training_organizer_data">组织者：团省委、省农业厅、省教育厅</string>
+    <string name="entrepreneurship_training_training_phone_data">咨询电话：029-87300214【查看】</string>
+    <string name="entrepreneurship_training_training_time_data">培训时间：2016.09.20-2016.11.30</string>
+    <string name="entrepreneurship_training_training_place_data">洛川县农业局三楼</string>
+
 </resources>
