@@ -39,7 +39,6 @@
             android:scaleType="centerInside"
             android:src="@mipmap/logo" />
 
-
     </RelativeLayout>
     <TextView
         android:id="@+id/text1"
