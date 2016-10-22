@@ -170,6 +170,23 @@
     <string name="input_detailed_description">请输入详细说明</string>
     <string name="add_photos_describe">有照片的电话量会提高50%</string>
 
+    <string name="property_details">产权详情</string>
+    <string name="property_details_title">西安户县46亩果园，10年树龄</string>
+    <string name="browse_times">21次</string>
+    <string name="property_details_time">2016-09-12</string>
+    <string name="property_details_money">¥96</string>
+    <string name="property_basic_details">产权基本信息</string>
+    <string name="area_size">面积大小</string>
+    <string name="region">地区</string>
+    <string name="region_data">陕西/西安/户县</string>
+    <string name="property_type_data">园地/果园</string>
+    <string name="area_size_data">46亩</string>
+    <string name="transfer_term_data">9年</string>
+    <string name="transfer_mode_data">转让</string>
+    <string name="seller_description">卖家说明</string>
+    <string name="seller_description_data">树龄为15年的树，靠近210国道，可作为采摘园，因特殊情况，亟虚转让，非诚勿扰！！！</string>
+    <string name="property_details_person">刘先生</string>
+    <string name="property_details_float_money">¥96万元</string>
 
 
 
