@@ -299,61 +299,28 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <Spinner
                         android:layout_height="wrap_content"
-                        android:layout_column="2"
-                        android:layout_gravity="center|center_vertical"
-                        android:text="@string/address_information_province" />
+                        android:layout_width="wrap_content"
+                        android:id="@+id/province_Sp"
+                        android:layout_column="1" />
 
-                    <ImageView
-                        android:layout_width="wrap_content"
+                    <Spinner
+                        android:id="@+id/city_Sp"
                         android:layout_height="wrap_content"
-                        android:layout_column="2"
-                        android:layout_gravity="right|center_vertical"
-                        android:src="@drawable/setting_down_arrow" />
+                        android:layout_width="wrap_content"
+                        android:layout_column="2" />
 
-                    <TextView
-                        android:layout_width="wrap_content"
+                    <Spinner
+                        android:id="@+id/area_Sp"
                         android:layout_height="wrap_content"
-                        android:layout_column="2"
-                        android:layout_gravity="center|center_vertical"
-                        android:text="@string/address_information_city" />
-
-                    <ImageView
                         android:layout_width="wrap_content"
+                        android:layout_column="3" />
+                    <Spinner
+                        android:id="@+id/Town_Sp"
                         android:layout_height="wrap_content"
-                        android:layout_column="2"
-                        android:layout_gravity="right|center_vertical"
-                        android:src="@drawable/setting_down_arrow" />
-
-                    <TextView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_column="2"
-                        android:layout_gravity="center|center_vertical"
-                        android:text="@string/address_information_district_and_county" />
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_column="2"
-                        android:layout_gravity="right|center_vertical"
-                        android:src="@drawable/setting_down_arrow" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_column="2"
-                        android:layout_gravity="center|center_vertical"
-                        android:text="@string/address_information_Town" />
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_column="2"
-                        android:layout_gravity="right|center_vertical"
-                        android:src="@drawable/setting_down_arrow" />
+                        android:layout_column="4" />
                 </LinearLayout>
             </TableRow>
 
