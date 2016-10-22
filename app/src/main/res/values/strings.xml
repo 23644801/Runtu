@@ -218,6 +218,9 @@
     <string name="acquisition_type">收购类型</string>
     <string name="input_detailed_content">请输入详细内容</string>
     <string name="production_requirement">产区要求</string>
+    <string name="choice_release_class_type">选择要发布的产类类型</string>
+    <string name="product_type">产品类型</string>
+    <string name="Agricultural_products_place">农品产地</string>
 
 
 </resources>
