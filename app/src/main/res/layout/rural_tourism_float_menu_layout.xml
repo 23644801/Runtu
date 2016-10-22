@@ -27,104 +27,41 @@
             android:layout_marginLeft="10dp"
             android:layout_weight="1"
             android:background="@null"
-            android:hint="@string/business_dynamics_search_hint"
+            android:hint="@string/rural_tourism_search_hint"
             android:textSize="14sp" />
     </LinearLayout>
 
-
     <LinearLayout
-        android:id="@+id/linearLayout1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@android:color/white"
         android:gravity="center_vertical"
         android:orientation="horizontal"
         android:paddingTop="8dp"
-        android:weightSum="2">
-
-        <TextView
-            android:id="@+id/merchants_release_Tv"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@drawable/shape_just_bottom_line_business_dynamics_select_bg"
-            android:gravity="center"
-            android:text="@string/merchants_release"
-            android:textColor="@color/titlebg" />
-
-        <TextView
-            android:id="@+id/household_release_Tv"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:textColor="@color/normal_color"
-            android:background="@drawable/shape_just_bottom_line_business_dynamics_normal_bg"
-            android:gravity="center"
-            android:text="@string/household_release" />
-    </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:background="@android:color/white"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
-        android:padding="5dp"
-        android:weightSum="6">
+        android:weightSum="5">
 
         <Spinner
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1" />
 
-        <View
-            android:layout_width="0.5dp"
+        <Spinner
+            android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:background="#B7B7B7" />
+            android:layout_weight="1" />
 
         <Spinner
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1" />
 
-        <View
-            android:layout_width="0.5dp"
-            android:layout_height="match_parent"
-            android:background="#B7B7B7" />
-
         <Spinner
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1" />
 
-        <View
-            android:layout_width="0.5dp"
-            android:layout_height="match_parent"
-            android:background="#B7B7B7" />
-
-        <Spinner
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
-
-        <View
-            android:layout_width="0.5dp"
-            android:layout_height="match_parent"
-            android:background="#B7B7B7" />
-
-        <Spinner
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
-
-        <View
-            android:layout_width="0.5dp"
-            android:layout_height="match_parent"
-            android:background="#B7B7B7" />
 
         <ImageView
-            android:id="@+id/confirm_Iv"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"

@@ -28,7 +28,9 @@
         <activity android:name=".activity.ForgetTwoPwdActivity" />
         <activity android:name=".activity.PersonalCenterActitity" />
         <activity android:name=".activity.PersonalCenterSettingActivity" />
-        <activity android:name=".activity.OrderActivity" />
+        <activity
+            android:name=".activity.OrderActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity android:name=".activity.VersionActivity" />
         <activity android:name=".activity.HelpActivity" />
         <activity android:name=".activity.AboutUsActivity" />
@@ -37,7 +39,37 @@
         <activity android:name=".activity.ManageReceiptAddressActivity" />
         <activity android:name=".activity.AddReceiptAddressActivity" />
         <activity android:name=".activity.PersonalInfoActivity" />
-        <activity android:name=".activity.BusinessDynamicsActivity"></activity>
+        <activity
+            android:name=".activity.BusinessDynamicsActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name=".activity.CirculationOfPropertyRightsActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name=".activity.RuralTourismActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name=".activity.AttractionDetailsActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity android:name=".activity.PropertyRightsRealse1Activity" />
+        <activity android:name=".activity.PropertyRightsRealse2Activity" />
+        <activity android:name=".activity.PropertyRightsDetailsActivity" />
+        <activity
+            android:name=".activity.EntrepreneurshipTrainingActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name=".activity.LaborServiceCooperationActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity
+            android:name=".activity.LaborServiceCooperationReleaseActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity android:name=".activity.LaborServiceCooperationDetailsActivity" />
+        <activity android:name=".activity.EpreneurshipTrainingActivity" />
+        <activity android:name=".activity.BusinessDynamicsReleaseActivity" />
+        <activity android:name=".activity.BusinessDynamicsDetailsActivity" />
+        <activity android:name=".activity.BusinessDynamicsMerchantsReleaseActivity" />
+        <activity android:name=".activity.BusinessDynamicsHouseHoldRelease1Activity" />
+        <activity android:name=".activity.BusinessDynamicsHouseHoldRelease2Activity" />
     </application>
 
 </manifest>

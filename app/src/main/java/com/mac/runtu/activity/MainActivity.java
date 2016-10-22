@@ -123,19 +123,25 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
         }
     }
 
-    @OnClick({R.id.business_dynamics_LL, R.id.circulation_of_property_rights_LL, R.id.rural_tourism_LL, R.id.logistics_distribution_LL, R.id.entrepreneurship_training_LL})
+    @OnClick({R.id.business_dynamics_LL, R.id.circulation_of_property_rights_LL, R.id.rural_tourism_LL, R.id.logistics_distribution_LL, R.id.entrepreneurship_training_LL, R.id.lsc_Iv})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.business_dynamics_LL:
                 startActivity(new Intent(MainActivity.this, BusinessDynamicsActivity.class));
                 break;
             case R.id.circulation_of_property_rights_LL:
+                startActivity(new Intent(MainActivity.this, CirculationOfPropertyRightsActivity.class));
                 break;
             case R.id.rural_tourism_LL:
+                startActivity(new Intent(MainActivity.this, RuralTourismActivity.class));
                 break;
             case R.id.logistics_distribution_LL:
                 break;
             case R.id.entrepreneurship_training_LL:
+                startActivity(new Intent(MainActivity.this, EntrepreneurshipTrainingActivity.class));
+                break;
+            case R.id.lsc_Iv:
+                startActivity(new Intent(MainActivity.this, LaborServiceCooperationActivity.class));
                 break;
         }
     }

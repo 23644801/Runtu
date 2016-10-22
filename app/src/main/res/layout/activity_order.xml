@@ -95,8 +95,8 @@
 
         <View
             android:layout_width="0.5dp"
-            android:layout_height="match_parent"
-            android:background="#B7B7B7" />
+        android:layout_height="match_parent"
+        android:background="#B7B7B7" />
 
         <TextView
             android:id="@+id/pending_payment_order_Tv"

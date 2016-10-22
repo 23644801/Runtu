@@ -189,18 +189,16 @@
     <string name="property_details_float_money">¥96万元</string>
 
 
-
-
     <!-- 客商动态 -->
     <string name="business_dynamics_search_hint">富士收购/药材柴胡/玉米收购</string>
     <string name="merchants_release">客商发布</string>
+    <string name="merchants_msg">客商信息</string>
     <string name="household_release">农户发布</string>
     <string name="merchants_dynamic">客商动态</string>
     <string name="i_am_merchants">我是客商</string>
     <string name="i_am_household">我是农户</string>
     <string name="select_release_type_byidentity">根据您的身份选择要发布的类型</string>
 
-    <string name="entrepreneurship_training">创业培训</string>
     <string name="right_arrow">></string>
     <string name="entrepreneurship_training_title_city">延安</string>
     <string name="entrepreneurship_training_title_county">洛川</string>
@@ -223,4 +221,47 @@
     <string name="Agricultural_products_place">农品产地</string>
 
 
+    <!-- 产权流转 -->
+    <string name="cpr_search_hint">土地流转/老宅出售/果园承包</string>
+    <string name="latest_release">最新发布</string>
+    <string name="confirm">确定</string>
+
+
+    <!-- 乡村旅游 -->
+    <string name="rural_tourism_search_hint">礼泉袁家村/陕北民宿</string>
+    <string name="rural_tourism_info">景点信息：</string>
+    <string name="rural_tourism_name">景点名称：</string>
+    <string name="rural_tourism_phone">电话咨询：</string>
+    <string name="rural_tourism_location">地理位置：</string>
+    <string name="rural_tourism_introduce">景点介绍</string>
+
+
+    <!-- 创业培训 -->
+    <string name="entrepreneurship_training_search_hint">技术培训/洛川培训</string>
+    <string name="entrepreneurship_training_msg">培训信息</string>
+    <string name="entrepreneurship_training_msg_release_time">发布时间：</string>
+
+
+    <!-- 劳务合作 -->
+    <string name="labor_service_cooperation">劳务信息</string>
+    <string name="labor_service_cooperation_msg">请填写您要发布的农活信息</string>
+    <string name="labor_service_cooperation_area">区域：</string>
+    <string name="labor_service_cooperation_type">类型：</string>
+    <string name="lsc_release_msg">请填写您要发布的农活信息</string>
+    <string name="lsc_release_type">农活类型</string>
+    <string name="lsc_release_place">干活地点</string>
+    <string name="lsc_release_title">标题</string>
+    <string name="lsc_release_title_hint">请输入标题</string>
+    <string name="lsc_release_content">详细说明</string>
+    <string name="lsc_release_content_hint">请输入详细说明（人数、工资）</string>
+    <string name="lsc_release_time">干活时间</string>
+    <string name="lsc_release_person">发布人</string>
+    <string name="lsc_release_person_hint">请输入姓名</string>
+    <string name="lsc_release_phone">联系方式</string>
+    <string name="lsc_release_phone_hint">请输入手机号</string>
+    <string name="lsc_release_vc">验证码</string>
+    <string name="lsc_release_vc_hint">请输入验证码</string>
+    <string name="lsc_release_other_similar">其他同类</string>
+    <string name="lsc_release_details_person">发布人：</string>
+    <string name="lsc_release_details_time">发布时间：</string>
 </resources>
