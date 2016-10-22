@@ -156,19 +156,25 @@
             android:paddingLeft="10dp"
             android:text="本人家自产洛川苹果2万斤，65以上，全红，有需要联系。"
             android:paddingTop="10dp"/>
-        <ImageView
+        <LinearLayout
+            android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#ffffff"
+            android:background="#ffffff">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:src="@drawable/household_item_details"
             android:paddingTop="10dp"/>
         <ImageView
-            android:background="#ffffff"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:src="@drawable/household_item_details"
             android:paddingTop="10dp"
             android:paddingBottom="10dp"/>
+        </LinearLayout>
 
     </LinearLayout>
     <View
