@@ -6,6 +6,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.Toast;
@@ -37,6 +38,16 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
     ImageView efIv;
     @BindView(R.id.lsc_Iv)
     ImageView lscIv;
+    @BindView(R.id.business_dynamics_LL)
+    LinearLayout businessDynamicsLL;
+    @BindView(R.id.circulation_of_property_rights_LL)
+    LinearLayout circulationOfPropertyRightsLL;
+    @BindView(R.id.rural_tourism_LL)
+    LinearLayout ruralTourismLL;
+    @BindView(R.id.logistics_distribution_LL)
+    LinearLayout logisticsDistributionLL;
+    @BindView(R.id.entrepreneurship_training_LL)
+    LinearLayout entrepreneurshipTrainingLL;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -86,7 +97,7 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
                 R.string.setting, R.string.cancel, new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
-                        Toast.makeText(MainActivity.this,R.string.get_permission_fail_msg,Toast.LENGTH_SHORT).show();
+                        Toast.makeText(MainActivity.this, R.string.get_permission_fail_msg, Toast.LENGTH_SHORT).show();
                     }
                 }, perms);
     }
@@ -102,13 +113,30 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
             Manifest.permission.ACCESS_COARSE_LOCATION,
             Manifest.permission.ACCESS_FINE_LOCATION
     };
-    public static final int appPermissionsCode=369;
+    public static final int appPermissionsCode = 369;
 
     @Override
     public void onPermissionsDenied(int requestCode, List<String> perms) {
         if (!EasyPermissions.hasPermissions(this, requestPermissions)) {
             EasyPermissions.requestPermissions(this, getString(R.string.get_permission_msg),
                     appPermissionsCode, requestPermissions);
+        }
+    }
+
+    @OnClick({R.id.business_dynamics_LL, R.id.circulation_of_property_rights_LL, R.id.rural_tourism_LL, R.id.logistics_distribution_LL, R.id.entrepreneurship_training_LL})
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.business_dynamics_LL:
+                startActivity(new Intent(MainActivity.this, BusinessDynamicsActivity.class));
+                break;
+            case R.id.circulation_of_property_rights_LL:
+                break;
+            case R.id.rural_tourism_LL:
+                break;
+            case R.id.logistics_distribution_LL:
+                break;
+            case R.id.entrepreneurship_training_LL:
+                break;
         }
     }
 }

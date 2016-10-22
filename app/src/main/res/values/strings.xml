@@ -140,4 +140,9 @@
     <string name="write_head_portrait">个人头像：</string>
 
 
+    <!-- 客商动态 -->
+    <string name="business_dynamics_search_hint">富士收购/药材柴胡/玉米收购</string>
+    <string name="merchants_release">客商发布</string>
+    <string name="household_release">农户发布</string>
+
 </resources>

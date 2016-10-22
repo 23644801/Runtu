@@ -7,4 +7,7 @@
     <color name="contentbg">#f5f5f5</color>
     <color name="order_state_text_color">#67bdfe</color>
     <color name="order_price_text_color">#ce3a38</color>
+    <color name="business_dynamics_address_color">#bee5b9</color>
+    <color name="business_dynamics_type_color">#4ebcf0</color>
+
 </resources>

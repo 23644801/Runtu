@@ -60,12 +60,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/ses_Iv"
-        android:layout_alignParentStart="true"
         android:orientation="horizontal"
         android:weightSum="5">
 
         <LinearLayout
-            android:id="@+id/menu1_LL"
+            android:id="@+id/business_dynamics_LL"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -88,7 +87,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/menu2_LL"
+            android:id="@+id/circulation_of_property_rights_LL"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -111,7 +110,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/menu3_LL"
+            android:id="@+id/rural_tourism_LL"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -134,7 +133,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/menu4_LL"
+            android:id="@+id/logistics_distribution_LL"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -157,7 +156,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/menu5_LL"
+            android:id="@+id/entrepreneurship_training_LL"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"

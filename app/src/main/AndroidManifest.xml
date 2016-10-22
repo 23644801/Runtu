@@ -36,7 +36,8 @@
         <activity android:name=".activity.OrderPayActivity" />
         <activity android:name=".activity.ManageReceiptAddressActivity" />
         <activity android:name=".activity.AddReceiptAddressActivity" />
-        <activity android:name=".activity.PersonalInfoActivity"></activity>
+        <activity android:name=".activity.PersonalInfoActivity" />
+        <activity android:name=".activity.BusinessDynamicsActivity"></activity>
     </application>
 
 </manifest>
