@@ -390,16 +390,14 @@
                     android:layout_column="0"
                     android:layout_weight="1"
                     android:layout_gravity="center_vertical">
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:src="@drawable/property_rights_details_head_portrait"/>
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/property_details_person"
-                        android:layout_gravity="center_vertical"
-                        android:paddingLeft="10dp"/>
+                        android:gravity="center_vertical"
+                        android:paddingLeft="10dp"
+                        android:drawablePadding="10dp"
+                        android:drawableLeft="@drawable/property_rights_details_head_portrait"/>
                 </LinearLayout>
                 <ImageView
                     android:layout_column="1"
