@@ -195,5 +195,9 @@
     <string name="business_dynamics_search_hint">富士收购/药材柴胡/玉米收购</string>
     <string name="merchants_release">客商发布</string>
     <string name="household_release">农户发布</string>
+    <string name="merchants_dynamic">客商动态</string>
+    <string name="i_am_merchants">我是客商</string>
+    <string name="i_am_household">我是农户</string>
+    <string name="select_release_type_byidentity">根据您的身份选择要发布的类型</string>
 
 </resources>
