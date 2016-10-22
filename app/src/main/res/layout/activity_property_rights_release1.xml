@@ -74,23 +74,21 @@
                 android:paddingBottom="10dp"
                 android:paddingTop="10dp">
 
-                <ImageView
-                    android:layout_column="0"
-                    android:layout_gravity="center|center_vertical"
-                    android:src="@drawable/release_red_dot"
-                    android:paddingLeft="20dp"
-                    android:paddingRight="10dp"/>
 
                 <TextView
-                    android:layout_column="1"
+                    android:layout_column="0"
                     android:background="@null"
-                    android:layout_gravity="left|center_vertical"
-                    android:text="@string/property_type"/>
+                    android:text="@string/property_type"
+                    android:drawableLeft="@drawable/release_red_dot"
+                    android:drawablePadding="10dp"
+                    android:paddingLeft="20dp"
+                    android:layout_weight="1"/>
 
                 <Spinner
-                    android:layout_column="2"
-                    android:layout_gravity="center|center_vertical"
-                    android:layout_marginLeft="100dp"/>
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="30dp"/>
 
             </TableRow>
 
@@ -105,27 +103,21 @@
                 android:gravity="center_vertical"
                 android:paddingTop="10dp">
 
-                <ImageView
-                    android:layout_column="0"
-                    android:layout_gravity="center|center_vertical"
-                    android:src="@drawable/release_red_dot"
-                    android:paddingLeft="20dp"
-                    android:paddingRight="10dp"/>
 
                 <TextView
-                    android:layout_column="1"
+                    android:layout_column="0"
                     android:background="@null"
                     android:layout_gravity="left|center_vertical"
-                    android:text="@string/property_position"/>
+                    android:text="@string/property_position"
+                    android:drawableLeft="@drawable/release_red_dot"
+                    android:paddingLeft="20dp"
+                    android:drawablePadding="10dp"/>
             </TableRow>
-            <TableRow
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:gravity="center_vertical"
-                android:padding="5dp">
+
                 <LinearLayout
-                    android:layout_span="3"
-                    android:layout_gravity="center_horizontal">
+                    android:paddingLeft="50dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp">
                     <Spinner
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -147,7 +139,7 @@
                         android:id="@+id/village_Sp1"/>
 
                 </LinearLayout>
-            </TableRow>
+
 
             <View
                 android:layout_width="match_parent"
@@ -161,22 +153,20 @@
                 android:paddingBottom="10dp"
                 android:paddingTop="10dp">
 
-                <ImageView
-                    android:layout_column="0"
-                    android:layout_gravity="center|center_vertical"
-                    android:src="@drawable/release_red_dot"
-                    android:paddingLeft="20dp"
-                    android:paddingRight="10dp"/>
-
                 <TextView
-                    android:layout_column="1"
+                    android:layout_column="0"
                     android:background="@null"
                     android:layout_gravity="left|center_vertical"
-                    android:text="@string/transfer_mode"/>
+                    android:text="@string/transfer_mode"
+                    android:drawableLeft="@drawable/release_red_dot"
+                    android:drawablePadding="10dp"
+                    android:paddingLeft="20dp"
+                    android:layout_weight="1"/>
                 <Spinner
-                    android:layout_column="2"
-                    android:layout_gravity="right|center_vertical"
-                    android:layout_marginLeft="30dp"/>
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    android:layout_gravity="right"
+                    android:layout_marginRight="30dp"/>
             </TableRow>
 
             <View
@@ -192,33 +182,34 @@
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp">
 
-                <ImageView
-                    android:layout_column="0"
-                    android:layout_gravity="center|center_vertical"
-                    android:src="@drawable/release_red_dot"
-                    android:paddingLeft="20dp"
-                    android:paddingRight="10dp"/>
-
                 <TextView
-                    android:layout_column="1"
+                    android:layout_column="0"
                     android:background="@null"
                     android:layout_gravity="left|center_vertical"
-                    android:text="@string/measure_area"/>
-                <EditText
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/please_input"
-                    android:textSize="15dp"
-                    android:layout_gravity="right|center_vertical"
-                    android:layout_marginLeft="50dp"
-                    android:background="@null"
-                    android:paddingRight="10dp"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:hint="@string/mu"
-                    android:textSize="15dp"
-                    android:layout_gravity="left|center_vertical"/>
+                    android:text="@string/measure_area"
+                    android:drawableLeft="@drawable/release_red_dot"
+                    android:paddingLeft="20dp"
+                    android:drawablePadding="10dp"
+                    android:layout_weight="1"/>
+                <LinearLayout
+                    android:layout_column="2">
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/please_input"
+                        android:textSize="15dp"
+                        android:layout_gravity="right|center_vertical"
+                        android:background="@null"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:layout_weight="4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/mu"
+                        android:textSize="15dp"
+                        android:layout_gravity="left|center_vertical"/>
+
+                </LinearLayout>
 
             </TableRow>
             <View
@@ -232,24 +223,22 @@
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp">
 
-                <ImageView
-                    android:layout_column="0"
-                    android:layout_gravity="center|center_vertical"
-                    android:src="@drawable/release_red_dot"
-                    android:paddingLeft="20dp"
-                    android:paddingRight="10dp"/>
-
                 <TextView
-                    android:layout_column="1"
+                    android:layout_column="0"
                     android:background="@null"
                     android:layout_gravity="left|center_vertical"
-                    android:text="@string/transfer_term"/>
+                    android:text="@string/transfer_term"
+                    android:drawableLeft="@drawable/release_red_dot"
+                    android:drawablePadding="10dp"
+                    android:paddingLeft="20dp"
+                    android:layout_weight="1"/>
+                <LinearLayout
+                    android:layout_column="2">
                 <EditText
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hint="@string/please_input"
                     android:layout_gravity="right|center_vertical"
-                    android:layout_marginLeft="50dp"
                     android:textSize="15dp"
                     android:background="@null"
                     android:paddingRight="10dp"/>
@@ -259,7 +248,7 @@
                     android:hint="@string/year"
                     android:textSize="15dp"
                     android:layout_gravity="left|center_vertical"/>
-
+                </LinearLayout>
             </TableRow>
 
             <View
@@ -273,35 +262,34 @@
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp">
 
-                <ImageView
-                    android:layout_column="0"
-                    android:layout_gravity="center|center_vertical"
-                    android:src="@drawable/release_red_dot"
-                    android:paddingLeft="20dp"
-                    android:paddingRight="10dp"/>
-
                 <TextView
-                    android:layout_column="1"
+                    android:layout_column="0"
                     android:background="@null"
                     android:layout_gravity="left|center_vertical"
-                    android:text="@string/price"/>
+                    android:text="@string/price"
+                    android:drawableLeft="@drawable/release_red_dot"
+                    android:paddingLeft="20dp"
+                    android:drawablePadding="10dp"
+                    android:layout_weight="1"/>
+                <LinearLayout
+                    android:layout_column="2">
                 <EditText
+                    android:layout_column="1"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hint="@string/please_input"
                     android:textSize="15dp"
                     android:layout_gravity="right|center_vertical"
-                    android:layout_marginLeft="40dp"
                     android:background="@null"
                     android:paddingRight="10dp"/>
                 <TextView
+                    android:layout_column="2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:hint="@string/million_yuan"
                     android:textSize="15dp"
-                    android:layout_gravity="left|center_vertical"
-                    android:paddingRight="20dp"/>
-
+                    android:layout_gravity="left|center_vertical"/>
+                </LinearLayout>
             </TableRow>
 
             <View
@@ -315,20 +303,17 @@
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp">
 
-                <ImageView
-                    android:layout_column="0"
-                    android:layout_gravity="center|center_vertical"
-                    android:src="@drawable/release_red_dot"
-                    android:paddingLeft="20dp"
-                    android:paddingRight="10dp"/>
-
                 <TextView
-                    android:layout_column="1"
+                    android:layout_column="0"
                     android:background="@null"
                     android:layout_gravity="left|center_vertical"
-                    android:text="@string/release_time"/>
+                    android:text="@string/release_time"
+                    android:drawableLeft="@drawable/release_red_dot"
+                    android:paddingLeft="20dp"
+                    android:drawablePadding="10dp"/>
                 <LinearLayout
-                    android:layout_column="2">
+                    android:layout_column="1"
+                    android:layout_gravity="right">
                 <Spinner
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
