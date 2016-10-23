@@ -283,7 +283,16 @@
     <string name="agricultural_machinery_button">农机</string>
     <string name="agricultural_machinery_details_money">¥6</string>
     <string name="agricultural_machinery_data">农机/拖拉机</string>
+    <string name="agricultural_machinery_data">农机/拖拉机</string>
 
+    <!-- 物流信息 -->
+    <string name="logistics_information">物流信息</string>
+    <string name="choice_incidentally_information">请选择要捎货的信息</string>
+    <string name="type_of_goods">货物类型</string>
+    <string name="ton">吨</string>
+    <string name="cargo_weight">货物重量</string>
+    <string name="input_weight">请输入重量</string>
+    <string name="destination">目的地</string>
 
 
 </resources>
