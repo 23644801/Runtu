@@ -293,6 +293,7 @@
     <string name="cargo_weight">货物重量</string>
     <string name="input_weight">请输入重量</string>
     <string name="destination">目的地</string>
+    <string name="choice_release_vehicle_information">选择要发布的车辆信息</string>
 
 
 </resources>
