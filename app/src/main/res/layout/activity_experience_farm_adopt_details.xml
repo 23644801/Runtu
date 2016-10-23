@@ -41,6 +41,7 @@
 
 
     </RelativeLayout>
+
     <com.youth.banner.Banner
         android:id="@+id/banner"
         android:layout_width="match_parent"
@@ -386,6 +387,7 @@
             android:background="#B7B7B7" />
 
         <TextView
+            android:id="@+id/base_introduce_Tv"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingBottom="10dp"
@@ -417,17 +419,19 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_alignParentBottom="true">
+
             <TextView
-                android:layout_weight="1"
+                android:id="@+id/add_cart_Tv"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:text="@string/join_shopping_cart"
+                android:layout_weight="1"
                 android:drawableTop="@drawable/shopping_cart"
                 android:gravity="center_horizontal"
-                android:paddingTop="5dp"/>
+                android:paddingTop="5dp"
+                android:text="@string/join_shopping_cart" />
 
             <ImageView
-                android:id="@+id/phone_service_Iv"
+                android:id="@+id/buy_Iv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"

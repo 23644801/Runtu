@@ -10,7 +10,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class AdoptExplain extends AppCompatActivity {
+public class AdoptExplainActivity extends AppCompatActivity {
 
     @BindView(R.id.back_Iv)
     ImageView backIv;

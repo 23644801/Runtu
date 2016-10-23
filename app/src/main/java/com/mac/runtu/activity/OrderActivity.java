@@ -77,11 +77,11 @@ public class OrderActivity extends AppCompatActivity {
                     viewHolder.setText(R.id.state_Tv, "代收货");
                 }
 
-                if(item.getState() == Order.State.pending_payment){
+                if (item.getState() == Order.State.pending_payment) {
                     viewHolder.setOnClickListener(R.id.order_pay_Iv, new View.OnClickListener() {
                         @Override
                         public void onClick(View v) {
-                            startActivity(new Intent(OrderActivity.this,OrderPayActivity.class));
+                            startActivity(new Intent(OrderActivity.this, OrderPayActivity.class));
                         }
                     });
                 }

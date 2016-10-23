@@ -282,7 +282,6 @@
     <string name="agricultural_machinery_button">农机</string>
     <string name="agricultural_machinery_details_money">¥6</string>
     <string name="agricultural_machinery_data">农机/拖拉机</string>
-    <string name="agricultural_machinery_data">农机/拖拉机</string>
 
     <!-- 物流信息 -->
     <string name="logistics_information">物流信息</string>
@@ -322,5 +321,12 @@
     <string name="adopt_permissions_data">在线视频/实时定位</string>
     <string name="base_introduce">基地介绍</string>
     <string name="join_shopping_cart">加入购物车</string>
+
+    <!--  购物车 -->
+    <string name="all_select">全选</string>
+    <string name="shopping_cart_totle_price">合计：</string>
+    <string name="shopping_cart_confirm_receipt">确认收货</string>
+    <string name="shopping_cart_online_video">在线视频</string>
+
 
 </resources>

@@ -2,10 +2,11 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/contentbg">
 
     <RelativeLayout
-        android:id="@+id/title_RL"
+        android:id="@+id/relativeLayout1"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="#ff9900"
@@ -26,7 +27,7 @@
             android:layout_height="wrap_content"
             android:layout_centerInParent="true"
             android:gravity="center"
-            android:text="@string/experience_farm"
+            android:text="@string/order_details"
             android:textColor="@android:color/white"
             android:textSize="20sp" />
 
@@ -35,85 +36,91 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:drawablePadding="2dp"
-            android:src="@drawable/logo"
-            android:textSize="12sp" />
+            android:scaleType="centerInside"
+            android:src="@mipmap/logo" />
 
     </RelativeLayout>
 
     <LinearLayout
-        android:id="@+id/screen_LL"
+        android:id="@+id/menu_LL"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:layout_below="@+id/title_RL"
-        android:background="@android:color/white"
-        android:gravity="center_vertical"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1"
+        android:background="@drawable/shape_no_left_right_line_order_menu"
         android:orientation="horizontal"
-        android:padding="5dp"
-        android:weightSum="5">
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:weightSum="4">
+
 
         <TextView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:id="@+id/order_all_Tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:layout_weight="1"
             android:gravity="center"
-            android:text="@string/comprehensive_ranking"
-            android:textColor="@color/order_price_text_color" />
-
-        <Spinner
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
-
-
-        <Spinner
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
-
-
-        <Spinner
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
+            android:text="@string/all_orders" />
 
         <View
             android:layout_width="0.5dp"
             android:layout_height="match_parent"
             android:background="#B7B7B7" />
 
-        <Spinner
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
-        <ImageView
+        <TextView
+            android:id="@+id/pending_payment_order_Tv"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:src="@drawable/filter_icon"
-            />
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/pending_payment_order" />
 
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#B7B7B7" />
 
+        <TextView
+            android:id="@+id/receipt_of_goods_order_Tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/receipt_of_goods_order" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#B7B7B7" />
+
+        <TextView
+            android:id="@+id/completed_order_Tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/completed_order" />
     </LinearLayout>
-
 
     <com.baoyz.widget.PullRefreshLayout
         android:id="@+id/swipeRefreshLayout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@+id/screen_LL">
+        android:layout_below="@+id/menu_LL"
+        android:layout_height="match_parent">
 
         <ListView
-            android:id="@+id/crp_Lv"
+            android:id="@+id/order_Lv"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:choiceMode="singleChoice"
-            android:descendantFocusability="afterDescendants"
-            android:divider="#cccccc"
-            android:dividerHeight="0.5dp"
+            android:divider="@null"
+            android:dividerHeight="20dp"
             android:fadingEdge="none"
             android:listSelector="@android:color/transparent"
             android:scrollbarStyle="outsideOverlay" />
     </com.baoyz.widget.PullRefreshLayout>
-
 
 </RelativeLayout>

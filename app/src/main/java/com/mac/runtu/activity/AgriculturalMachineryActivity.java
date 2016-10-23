@@ -151,7 +151,7 @@ public class AgriculturalMachineryActivity extends AppCompatActivity {
         crpLv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                startActivity(new Intent(AgriculturalMachineryActivity.this, PropertyRightsDetailsActivity.class));
+                startActivity(new Intent(AgriculturalMachineryActivity.this, AgriculturalMachineryDetailsActivity.class));
             }
         });
     }
@@ -163,7 +163,7 @@ public class AgriculturalMachineryActivity extends AppCompatActivity {
                 finish();
                 break;
             case R.id.release_Iv:
-                startActivity(new Intent(AgriculturalMachineryActivity.this, PropertyRightsRealse1Activity.class));
+                startActivity(new Intent(AgriculturalMachineryActivity.this, AgriculturaMachineryRelease1Activity.class));
                 break;
         }
     }

@@ -89,7 +89,13 @@
             android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity android:name=".activity.ExperienceFarmActivity" />
         <activity android:name=".activity.ExperienceFarmSubActivity" />
-        <activity android:name=".activity.AdoptExplain"></activity>
+        <activity android:name=".activity.AdoptExplainActivity" />
+        <activity android:name=".activity.ShoppingCartActivity" />
+        <activity android:name=".activity.MyAdoptActivity" />
+        <activity android:name=".activity.ExperienceFarmAdoptDetails" />
+        <activity android:name=".activity.AgriculturalMachineryDetailsActivity" />
+        <activity android:name=".activity.AgriculturaMachineryRelease1Activity" />
+        <activity android:name=".activity.AgriculturaMachineryRelease2Activity"></activity>
     </application>
 
 </manifest>

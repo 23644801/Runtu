@@ -75,7 +75,10 @@ public class ExperienceFarmActivity extends AppCompatActivity implements View.On
         adopt_recommend_LL = ButterKnife.findById(floatView, R.id.adopt_recommend_LL);
         adopt_explain_LL = ButterKnife.findById(floatView, R.id.adopt_explain_LL);
         my_adopt_LL = ButterKnife.findById(floatView, R.id.my_adopt_LL);
-
+        adopt_type_LL.setOnClickListener(this);
+        adopt_recommend_LL.setOnClickListener(this);
+        adopt_explain_LL.setOnClickListener(this);
+        my_adopt_LL.setOnClickListener(this);
         crpLv.addHeaderView(floatView, null, true);
         initBannerData();
         initData();
@@ -158,7 +161,7 @@ public class ExperienceFarmActivity extends AppCompatActivity implements View.On
         crpLv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                startActivity(new Intent(ExperienceFarmActivity.this, PropertyRightsDetailsActivity.class));
+                startActivity(new Intent(ExperienceFarmActivity.this, ExperienceFarmAdoptDetails.class));
             }
         });
     }
@@ -171,19 +174,19 @@ public class ExperienceFarmActivity extends AppCompatActivity implements View.On
                 finish();
                 break;
             case R.id.shopping_cart_Tv:
-                startActivity(new Intent(ExperienceFarmActivity.this, ExperienceFarmSubActivity.class));
+                startActivity(new Intent(ExperienceFarmActivity.this, ShoppingCartActivity.class));
                 break;
             case R.id.adopt_type_LL:
                 startActivity(new Intent(ExperienceFarmActivity.this, ExperienceFarmSubActivity.class));
                 break;
             case R.id.adopt_recommend_LL:
-                startActivity(new Intent(ExperienceFarmActivity.this, PropertyRightsRealse1Activity.class));
+                startActivity(new Intent(ExperienceFarmActivity.this, ExperienceFarmSubActivity.class));
                 break;
             case R.id.adopt_explain_LL:
-                startActivity(new Intent(ExperienceFarmActivity.this, PropertyRightsRealse1Activity.class));
+                startActivity(new Intent(ExperienceFarmActivity.this, AdoptExplainActivity.class));
                 break;
             case R.id.my_adopt_LL:
-                startActivity(new Intent(ExperienceFarmActivity.this, PropertyRightsRealse1Activity.class));
+                startActivity(new Intent(ExperienceFarmActivity.this, MyAdoptActivity.class));
                 break;
         }
     }
