@@ -264,4 +264,13 @@
     <string name="lsc_release_other_similar">其他同类</string>
     <string name="lsc_release_details_person">发布人：</string>
     <string name="lsc_release_details_time">发布时间：</string>
+    <string name="lsc_release_pop_address">地址：</string>
+    <string name="lsc_release_pop_time">时间：</string>
+
+
+
+    <!-- 农资农机 -->
+    <string name="agricultural_machinery">农资农机</string>
+    <string name="agricultural_machinery_search_hint">搜索农资类型</string>
+    <string name="basic_information_of_property_rights">产权基本信息</string>
 </resources>
