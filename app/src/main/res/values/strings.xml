@@ -309,6 +309,18 @@
     <string name="experience_farm_my_adopt">我的领养</string>
     <string name="shopping_cart">购物车</string>
     <string name="comprehensive_ranking">综合排序</string>
-
+    <string name="experience_farm_details_float_money">¥56元</string>
+    <string name="experience_farm_details_money">¥56</string>
+    <string name="adopt_basic_information">领养基本信息</string>
+    <string name="adopt_type">领养类型</string>
+    <string name="adopt_type_data">家养/土鸡</string>
+    <string name="adopt_mode">领养方式</string>
+    <string name="adopt_mode_data">线上</string>
+    <string name="growth_cycle">成长周期</string>
+    <string name="growth_cycle_data">3个月左右</string>
+    <string name="adopt_permissions">领养权限</string>
+    <string name="adopt_permissions_data">在线视频/实时定位</string>
+    <string name="base_introduce">基地介绍</string>
+    <string name="join_shopping_cart">加入购物车</string>
 
 </resources>
