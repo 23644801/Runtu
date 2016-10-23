@@ -82,6 +82,7 @@ public class BusinessDynamicsActivity extends AppCompatActivity implements OnCli
         householdReleaseTv.setOnClickListener(this);
         confirmIv.setOnClickListener(this);
         releaseIv.setOnClickListener(this);
+        backIv.setOnClickListener(this);
         banner = ButterKnife.findById(header, R.id.banner);
         bdLv.addHeaderView(header);
         bdLv.addHeaderView(floatView, null, true);

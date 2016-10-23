@@ -107,7 +107,7 @@
 
 
         <ImageView
-            android:id="@+id/conform_Iv"
+            android:id="@+id/confirm_Iv"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="0.5"

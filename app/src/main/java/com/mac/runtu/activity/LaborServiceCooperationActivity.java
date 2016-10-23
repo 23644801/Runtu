@@ -32,7 +32,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class LaborServiceCooperationActivity extends AppCompatActivity {
+public class LaborServiceCooperationActivity extends AppCompatActivity implements View.OnClickListener{
 
     Handler refreshHandler = new Handler() {
         @Override
@@ -51,13 +51,10 @@ public class LaborServiceCooperationActivity extends AppCompatActivity {
     ListView crpLv;
     @BindView(R.id.swipeRefreshLayout)
     PullRefreshLayout swipeRefreshLayout;
-    @BindView(R.id.conform_Iv)
-    ImageView conformIv;
-    @BindView(R.id.map_mode_Iv)
-    ImageView mapModeIv;
     @BindView(R.id.menu_LL)
     LinearLayout menuLL;
-
+    ImageView conformIv;
+    ImageView mapModeIv;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -66,6 +63,9 @@ public class LaborServiceCooperationActivity extends AppCompatActivity {
         View header = getLayoutInflater().inflate(R.layout.business_dynamics_header_layout, null);
         View floatView = getLayoutInflater().inflate(R.layout.labor_service_cooperation_float_menu_layout, null);
         banner = ButterKnife.findById(header, R.id.banner);
+        conformIv=ButterKnife.findById(floatView,R.id.confirm_Iv);
+        mapModeIv=ButterKnife.findById(floatView,R.id.map_mode_Iv);
+        initEvent();
         crpLv.addHeaderView(header);
         crpLv.addHeaderView(floatView, null, true);
         initBannerData();
@@ -157,8 +157,15 @@ public class LaborServiceCooperationActivity extends AppCompatActivity {
         });
     }
 
+    void  initEvent(){
+        backIv.setOnClickListener(this);
+        myReleaseIv.setOnClickListener(this);
+        mapModeIv.setOnClickListener(this);
+        conformIv.setOnClickListener(this);
+    }
 
-    @OnClick({R.id.back_Iv, R.id.my_release_Iv, R.id.conform_Iv, R.id.map_mode_Iv})
+    @Override
+    @OnClick({R.id.back_Iv, R.id.my_release_Iv, R.id.confirm_Iv, R.id.map_mode_Iv})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.back_Iv:
@@ -167,9 +174,10 @@ public class LaborServiceCooperationActivity extends AppCompatActivity {
             case R.id.my_release_Iv:
                 startActivity(new Intent(LaborServiceCooperationActivity.this,LaborServiceCooperationReleaseActivity.class));
                 break;
-            case R.id.conform_Iv:
+            case R.id.confirm_Iv:
                 break;
             case R.id.map_mode_Iv:
+                startActivity(new Intent(LaborServiceCooperationActivity.this,LaborServiceCooperationMapActivity.class));
                 break;
         }
     }

@@ -10,6 +10,7 @@
     <color name="business_dynamics_address_color">#bee5b9</color>
     <color name="business_dynamics_type_color">#4ebcf0</color>
     <color name="normal_color">#b0b0b0</color>
+    <color name="labor_service_pop_title_bg">#3399fe</color>
 
 
 </resources>

@@ -268,7 +268,6 @@
     <string name="lsc_release_pop_time">时间：</string>
 
 
-
     <!-- 农资农机 -->
     <string name="agricultural_machinery">农资农机</string>
     <string name="agricultural_machinery_search_hint">搜索农资类型</string>
@@ -284,6 +283,16 @@
     <string name="agricultural_machinery_details_money">¥6</string>
     <string name="agricultural_machinery_data">农机/拖拉机</string>
 
+
+    <!-- 体验农场-->
+    <string name="experience_farm">体验农场</string>
+    <string name="experience_farm_adopt_info">领养信息</string>
+    <string name="experience_farm_adopt_type">领养分类</string>
+    <string name="experience_farm_adopt_recommend">领养推荐</string>
+    <string name="experience_farm_adopt_explain">领养说明</string>
+    <string name="experience_farm_my_adopt">我的领养</string>
+    <string name="shopping_cart">购物车</string>
+    <string name="comprehensive_ranking">综合排序</string>
 
 
 </resources>

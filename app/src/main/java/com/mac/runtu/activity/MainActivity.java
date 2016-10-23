@@ -9,6 +9,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.mac.runtu.R;
@@ -48,6 +49,8 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
     LinearLayout logisticsDistributionLL;
     @BindView(R.id.entrepreneurship_training_LL)
     LinearLayout entrepreneurshipTrainingLL;
+    @BindView(R.id.agricultural_machinery_Rl)
+    RelativeLayout agriculturalMachineryRl;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -123,7 +126,7 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
         }
     }
 
-    @OnClick({R.id.business_dynamics_LL, R.id.circulation_of_property_rights_LL, R.id.rural_tourism_LL, R.id.logistics_distribution_LL, R.id.entrepreneurship_training_LL, R.id.lsc_Iv})
+    @OnClick({R.id.business_dynamics_LL, R.id.circulation_of_property_rights_LL, R.id.rural_tourism_LL, R.id.logistics_distribution_LL, R.id.entrepreneurship_training_LL, R.id.lsc_Iv,R.id.agricultural_machinery_Rl,R.id.ef_Iv})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.business_dynamics_LL:
@@ -143,6 +146,14 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
             case R.id.lsc_Iv:
                 startActivity(new Intent(MainActivity.this, LaborServiceCooperationActivity.class));
                 break;
+            case R.id.agricultural_machinery_Rl:
+                startActivity(new Intent(MainActivity.this, AgriculturalMachineryActivity.class));
+                break;
+            case R.id.ef_Iv:
+                startActivity(new Intent(MainActivity.this, ExperienceFarmActivity.class));
+                break;
+
+
         }
     }
 }
