@@ -279,6 +279,10 @@
     <string name="selling_price">售卖价格</string>
     <string name="input_price">请输入价格</string>
     <string name="yuan">元</string>
+    <string name="agricultural_machinery_details_title">洛川农机社售600型号拖拉机两台</string>
+    <string name="agricultural_machinery_button">农机</string>
+    <string name="agricultural_machinery_details_money">¥6</string>
+    <string name="agricultural_machinery_data">农机/拖拉机</string>
 
 
 
