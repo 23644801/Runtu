@@ -273,4 +273,5 @@
     <string name="agricultural_machinery">农资农机</string>
     <string name="agricultural_machinery_search_hint">搜索农资类型</string>
     <string name="basic_information_of_property_rights">产权基本信息</string>
+    <string name="input_release_agricultural_information">请填写您要发布的农资信息</string>
 </resources>
