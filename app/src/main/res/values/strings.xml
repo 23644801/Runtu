@@ -294,6 +294,12 @@
     <string name="input_weight">请输入重量</string>
     <string name="destination">目的地</string>
     <string name="choice_release_vehicle_information">选择要发布的车辆信息</string>
+    <string name="vehicle_type">车辆类型</string>
+    <string name="load_weight">载重量</string>
+    <string name="input_load_weight">请输入载重量</string>
+    <string name="originating_place">始发地</string>
+    <string name="pathway">途径地</string>
+    <string name="departure_time">发车时间</string>
 
 
 </resources>
