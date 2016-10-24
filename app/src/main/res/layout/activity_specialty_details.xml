@@ -147,26 +147,76 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:background="#ffffff"
-            android:orientation="vertical">
-
-           <LinearLayout
-               android:layout_width="match_parent"
-               android:layout_height="wrap_content"
-               android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:padding="10dp">
                <View
-                   android:layout_width="5dp"
+                   android:layout_width="3dp"
                    android:layout_height="match_parent"
-                   android:background="#ff9900"/>
+                   android:background="#ff9900"
+                   android:layout_marginLeft="20dp"/>
                <TextView
                    android:layout_width="wrap_content"
                    android:layout_height="wrap_content"
                    android:text="@string/product_specifications"
                    android:paddingLeft="10dp"/>
-           </LinearLayout>
 
         </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#cccccc"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ffffff"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/specifications"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/specifications_data"
+                    android:background="@drawable/specifications_data_red_bg"
+                    android:gravity="center"
+                    android:layout_marginRight="30dp"
+                    android:textColor="#c90101"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/specifications_data"
+                    android:background="@drawable/specifications_data_bg"
+                    android:gravity="center"
+                    android:layout_marginRight="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/specifications_data"
+                    android:background="@drawable/specifications_data_bg"
+                    android:gravity="center"
+                    android:layout_marginRight="30dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/specifications_data"
+                    android:background="@drawable/specifications_data_bg"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
 
-
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="#B7B7B7" />
     </LinearLayout>
 
     <LinearLayout
@@ -174,37 +224,53 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/bottom_LL"
-        android:layout_marginTop="10dp"
         android:background="#ffffff"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginTop="10dp">
 
-        <TextView
+        <LinearLayout
+            android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingLeft="10dp"
-            android:paddingTop="5dp"
-            android:text="@string/base_introduce" />
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2dp"
-            android:background="#B7B7B7" />
-
-        <TextView
-            android:id="@+id/base_introduce_Tv"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingBottom="10dp"
-            android:paddingLeft="10dp"
-            android:paddingTop="10dp"
-            android:text="@string/seller_description_data" />
+            android:paddingLeft="20dp"
+            android:paddingBottom="5dp">
+            <View
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="#34cc99" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/product_details"
+                android:paddingLeft="10dp"/>
+        </LinearLayout>
 
         <View
             android:layout_width="match_parent"
             android:layout_height="0.5dp"
             android:background="#B7B7B7" />
-
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20dp"
+            android:paddingBottom="50dp"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/see_details_chart"
+                android:textSize="40dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/right_arrow"
+                android:textSize="30dp"
+                android:textColor="#cc0104"
+                android:paddingLeft="30dp" />
+        </LinearLayout>
     </LinearLayout>
+
 
     <LinearLayout
         android:id="@+id/bottom_LL"
@@ -212,12 +278,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:orientation="vertical"
-        android:paddingTop="10dp">
+        android:paddingTop="5dp">
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="0.5dp"
-            android:background="#B7B7B7" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -232,14 +294,16 @@
                 android:drawableTop="@drawable/shopping_cart"
                 android:gravity="center_horizontal"
                 android:paddingTop="5dp"
-                android:text="@string/join_shopping_cart" />
+                android:text="@string/join_shopping_cart"
+                android:background="#ffffff"/>
 
             <ImageView
                 android:id="@+id/buy_Iv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:src="@drawable/buy_immediately" />
+                android:src="@drawable/buy_immediately"
+                android:background="#ffffff"/>
         </LinearLayout>
 
 
