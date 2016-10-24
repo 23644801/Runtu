@@ -358,4 +358,14 @@
     <string name="local_recommendation">地方推荐</string>
     <string name="specialty_search_hint">洛川苹果/富平柿饼/延安小米</string>
     <string name="local_features">地方特色</string>
+
+
+    <string name="runtu_mall">闰土商城</string>
+    <string name="region_choice">地域选择</string>
+    <string name="fruit_dried_fruit">水果干果</string>
+    <string name="poultry_egg_milk">蛋禽肉奶</string>
+    <string name="vegetable_food">蔬菜食品</string>
+    <string name="handicraft">手工艺品</string>
+    <string name="other">其他</string>
+
 </resources>
