@@ -347,4 +347,6 @@
     <string name="specialty_receipt_number">3.2万人收货</string>
     <string name="product_specifications">商品规格</string>
 
+    <!-- 特产电商-->
+    <string name="product_details">商品详情</string>
 </resources>
