@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:padding="10dp">
 
     <TextView
@@ -38,6 +39,21 @@
         android:textColor="@color/order_price_text_color"
         android:textSize="12sp" />
 
+    <com.mac.runtu.custom.ChannelView
+        android:id="@+id/channelView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        app:textColor="@color/logistics_information_via_bg"
+        app:textSize="16sp"
+        app:rectTextPaddingLeft="20"
+        app:rectTextPaddingRight="20"
+        app:rectTextPaddingBottom="10"
+        app:rectTextPaddingTop="10"
+        app:rectColor="@color/logistics_information_via_bg"
+        android:layout_below="@id/title_Tv"
+        android:layout_toRightOf="@+id/pathway_msg_Tv"
+        />
 
 
     <TextView

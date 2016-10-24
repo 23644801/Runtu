@@ -5,5 +5,10 @@
         <attr name="textSize" format="dimension" />
         <attr name="rectColor" format="color" />
         <attr name="rectRound" format="integer" />
+        <attr name="rectTextPaddingTop" format="integer" />
+        <attr name="rectTextPaddingBottom" format="integer" />
+        <attr name="rectTextPaddingLeft" format="integer" />
+        <attr name="rectTextPaddingRight" format="integer" />
+        <attr name="rectTextPadding" format="integer" />
     </declare-styleable>
 </resources>

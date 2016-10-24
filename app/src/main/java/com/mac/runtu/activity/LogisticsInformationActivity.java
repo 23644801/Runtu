@@ -19,6 +19,7 @@ import android.widget.Toast;
 
 import com.baoyz.widget.PullRefreshLayout;
 import com.mac.runtu.R;
+import com.mac.runtu.custom.ChannelView;
 import com.squareup.picasso.Picasso;
 import com.youth.banner.Banner;
 import com.youth.banner.BannerConfig;
@@ -138,7 +139,7 @@ public class LogisticsInformationActivity extends AppCompatActivity implements O
     }
 
     void initData() {
-        List<String> datas = new ArrayList<>();
+        final List<String> datas = new ArrayList<>();
         for (int i = 0; i < 5; i++) {
             datas.add(i + "");
         }
@@ -146,6 +147,15 @@ public class LogisticsInformationActivity extends AppCompatActivity implements O
         bdLv.setAdapter(new CommonAdapter<String>(LogisticsInformationActivity.this, resId, datas) {
             @Override
             protected void convert(ViewHolder viewHolder, String item, int position) {
+                ChannelView channelView=viewHolder.getView(R.id.channelView);
+                if(channelView!=null){
+                    List<String> channlDatas=new ArrayList<String>();
+                    channlDatas.add("洛川");
+                    channlDatas.add("宜君");
+                    channlDatas.add("王益");
+                    channlDatas.add("三原");
+                    channelView.setData(channlDatas);
+                }
             }
         });
 
