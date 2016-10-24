@@ -341,4 +341,10 @@
     <string name="shopping_cart_online_video">在线视频</string>
 
 
+    <!--  特产电商 -->
+    <string name="runtu_specialty">闰土特产</string>
+    <string name="specialty_money">¥49.90</string>
+    <string name="specialty_receipt_number">3.2万人收货</string>
+    <string name="product_specifications">商品规格</string>
+
 </resources>
