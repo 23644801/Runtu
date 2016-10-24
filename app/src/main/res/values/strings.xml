@@ -285,6 +285,11 @@
 
     <!-- 物流信息 -->
     <string name="logistics_information">物流信息</string>
+    <string name="logistics_information_search_hint">大型货车/去延安的车</string>
+    <string name="vehicle_source_information">车源信息</string>
+    <string name="pathway_msg">途径：</string>
+    <string name="cargo_weight_msg">载重：</string>
+    <string name="departure_time_msg">发车时间：</string>
     <string name="choice_incidentally_information">请选择要捎货的信息</string>
     <string name="type_of_goods">货物类型</string>
     <string name="ton">吨</string>
@@ -298,6 +303,13 @@
     <string name="originating_place">始发地</string>
     <string name="pathway">途径地</string>
     <string name="departure_time">发车时间</string>
+    <string name="shipment_info">捎货信息</string>
+    <string name="i_want_shipment">我要捎货</string>
+    <string name="serial_number">序号</string>
+    <string name="goods_land">货物地</string>
+    <string name="type">类型</string>
+    <string name="tonnage">吨数</string>
+    <string name="shipment_person">捎货人</string>
 
     <!-- 体验农场-->
     <string name="experience_farm">体验农场</string>

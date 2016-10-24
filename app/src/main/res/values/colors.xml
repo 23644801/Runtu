@@ -12,6 +12,11 @@
     <color name="normal_color">#b0b0b0</color>
     <color name="labor_service_pop_title_bg">#3399fe</color>
     <color name="shopping_cart_choice_text">#ff7e57</color>
+    <color name="already_started_bg">#339933</color>
+    <color name="already_expired_bg">#cc3333</color>
+    <color name="no_departure_bg">#fd9900</color>
+    <color name="number_of_requests_bg">#999999</color>
+    <color name="logistics_information_via_bg">#999999</color>
 
 
 </resources>

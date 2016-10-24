@@ -8,128 +8,28 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:background="@android:color/white"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/order_seach_bg"
         android:gravity="center_vertical"
         android:orientation="horizontal"
-        android:padding="5dp"
-        android:weightSum="5">
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/labor_service_cooperation_area"
-            android:textColor="@color/order_price_text_color" />
-
-
-        <Spinner
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
-
-        <View
-            android:layout_width="0.5dp"
-            android:layout_height="match_parent"
-            android:background="#B7B7B7" />
-
-        <Spinner
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
-
-        <View
-            android:layout_width="0.5dp"
-            android:layout_height="match_parent"
-            android:background="#B7B7B7" />
-
-        <Spinner
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
-
-        <View
-            android:layout_width="0.5dp"
-            android:layout_height="match_parent"
-            android:background="#B7B7B7" />
-
-        <Spinner
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
-
-
-    </LinearLayout>
-
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="0.5dp"
-        android:background="#B7B7B7" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="40dp"
-        android:background="@android:color/white"
-        android:gravity="center_vertical"
-        android:orientation="horizontal"
-        android:padding="5dp"
-        android:weightSum="5">
-
-        <TextView
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:gravity="center"
-            android:text="@string/labor_service_cooperation_type"
-            android:textColor="@color/order_price_text_color" />
-
-        <Spinner
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
-
-        <View
-            android:layout_width="0.5dp"
-            android:layout_height="match_parent"
-            android:background="#B7B7B7" />
-
-        <Spinner
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1" />
-
-        <View
-            android:layout_width="0.5dp"
-            android:layout_height="match_parent"
-            android:background="#B7B7B7" />
-
+        android:padding="5dp">
 
         <ImageView
-            android:id="@+id/confirm_Iv"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="0.5"
-            android:paddingLeft="10dp"
-            android:src="@drawable/business_dynamiscs_submit" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/order_seach_icon" />
 
-
-        <ImageView
-            android:id="@+id/map_mode_Iv"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1.5"
-            android:paddingLeft="10dp"
-            android:src="@drawable/map_mode" />
-
+        <EditText
+            android:id="@+id/search_Tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="@string/logistics_information_search_hint"
+            android:textSize="14sp" />
     </LinearLayout>
-
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="0.5dp"
-        android:background="#B7B7B7" />
 
     <LinearLayout
         android:id="@+id/linearLayout1"
@@ -149,7 +49,7 @@
             android:background="@drawable/shape_just_bottom_line_business_dynamics_select_bg"
             android:gravity="left"
             android:paddingLeft="20dp"
-            android:text="@string/labor_service_cooperation_msg"
+            android:text="@string/vehicle_source_information"
             android:textColor="@color/titlebg" />
 
         <TextView
@@ -160,4 +60,130 @@
             android:background="@drawable/shape_just_bottom_line_business_dynamics_normal_bg"
             android:gravity="center" />
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/originating_place"
+            android:textColor="@color/titlebg" />
+
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#B7B7B7" />
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#B7B7B7" />
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#B7B7B7" />
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#B7B7B7" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="5dp"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/destination"
+            android:textColor="@color/labor_service_pop_title_bg" />
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#B7B7B7" />
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#B7B7B7" />
+
+        <Spinner
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="#B7B7B7" />
+        <ImageView
+            android:id="@+id/confirm_Iv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:paddingLeft="10dp"
+            android:src="@drawable/business_dynamiscs_submit" />
+
+
+    </LinearLayout>
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#B7B7B7" />
+
+
 </LinearLayout>

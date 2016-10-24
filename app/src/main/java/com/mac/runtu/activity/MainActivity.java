@@ -139,15 +139,16 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
                 startActivity(new Intent(MainActivity.this, RuralTourismActivity.class));
                 break;
             case R.id.logistics_distribution_LL:
+                startActivity(new Intent(MainActivity.this, LogisticsInformationActivity.class));
                 break;
             case R.id.entrepreneurship_training_LL:
                 startActivity(new Intent(MainActivity.this, EntrepreneurshipTrainingActivity.class));
                 break;
-            case R.id.lsc_Iv:
-                startActivity(new Intent(MainActivity.this, LaborServiceCooperationActivity.class));
-                break;
             case R.id.agricultural_machinery_Rl:
                 startActivity(new Intent(MainActivity.this, AgriculturalMachineryActivity.class));
+                break;
+            case R.id.lsc_Iv:
+                startActivity(new Intent(MainActivity.this, LaborServiceCooperationActivity.class));
                 break;
             case R.id.ef_Iv:
                 startActivity(new Intent(MainActivity.this, ExperienceFarmActivity.class));

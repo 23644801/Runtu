@@ -95,7 +95,14 @@
         <activity android:name=".activity.ExperienceFarmAdoptDetails" />
         <activity android:name=".activity.AgriculturalMachineryDetailsActivity" />
         <activity android:name=".activity.AgriculturaMachineryRelease1Activity" />
-        <activity android:name=".activity.AgriculturaMachineryRelease2Activity"></activity>
+        <activity android:name=".activity.AgriculturaMachineryRelease2Activity" />
+        <activity
+            android:name=".activity.LogisticsInformationActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity android:name=".activity.LogisticsInformationDetailsActivity" />
+        <activity android:name=".activity.LogisticsInformationRelease1Activity" />
+        <activity android:name=".activity.LogisticsInformationRelease2Activity" />
+        <activity android:name=".activity.LogisticsInformationIncidentallyReleaseActivity"></activity>
     </application>
 
 </manifest>
