@@ -11,7 +11,7 @@
         android:layout_height="100dp"
         android:layout_alignParentLeft="true"
         android:layout_centerVertical="true"
-        android:src="@drawable/image_9" />
+        android:src="@drawable/image_245" />
 
     <TextView
         android:id="@+id/title_Tv"
@@ -19,9 +19,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="5dp"
         android:layout_toRightOf="@+id/imageView"
-        android:singleLine="true"
-        android:text="求购洛川苹果10顿，75以上，全红。"
-        android:textColor="@android:color/black"
+        android:text="农家柿子饼白霜赛陕西富平柿子干霜降吊柿"
         android:textSize="18sp" />
 
     <TextView
@@ -47,43 +45,54 @@
         android:layout_marginTop="5dp"
         android:layout_toRightOf="@+id/address_Tv"
         android:background="@drawable/business_dynamics_type_bg"
-        android:text="富士"
+        android:text="柿饼"
         android:textColor="@color/business_dynamics_type_color"
         android:textSize="12sp" />
 
-    <TextView
-        android:id="@+id/conent_Tv"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/address_Tv"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="5dp"
-        android:layout_toRightOf="@+id/imageView"
-        android:text="求购洛川苹果10顿，75以上，进村收购，需要人装箱及装卸，价格面议。" />
 
-
-    <TextView
-        android:id="@+id/time_Tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/conent_Tv"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="5dp"
-        android:layout_toRightOf="@+id/imageView"
-        android:drawableLeft="@drawable/time_icon"
-        android:drawablePadding="5dp"
-        android:text="2016-09-12" />
-
-
-    <TextView
-        android:id="@+id/localtion_Tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <Button
+        android:id="@+id/product_details_Bt"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_alignBottom="@id/video_Bv"
         android:layout_alignParentRight="true"
-        android:layout_below="@+id/conent_Tv"
-        android:layout_marginTop="5dp"
-        android:drawableLeft="@drawable/location_icon"
+        android:layout_below="@+id/title_Tv"
+        android:background="@drawable/shape_corner_order_amount"
+        android:src="@drawable/order_pay"
+        android:text="@string/product_details"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/price_Tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/address_Tv"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/imageView"
         android:drawablePadding="5dp"
-        android:text="陕西/延安/洛川/苹果" />
+        android:text="￥39.90" />
+
+    <TextView
+        android:id="@+id/price_unit_Tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/price_Tv"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/price_Tv"
+        android:drawablePadding="5dp"
+        android:text="元"
+        android:textColor="@color/order_price_text_color" />
+
+
+    <TextView
+        android:id="@+id/quantity_sold_Tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/price_Tv"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:text="3.2万人收货" />
 
 </RelativeLayout>

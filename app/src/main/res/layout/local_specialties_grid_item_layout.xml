@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:gravity="center_vertical"
+    android:padding="5dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:id="@+id/title_Tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="【洛川】" />
+
+        <TextView
+            android:id="@+id/content_Tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="红富士苹果" />
+
+        <TextView
+            android:id="@+id/price_Tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="￥109.00"
+            android:textColor="@color/titlebg" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/prduct_icon_Iv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/image_16" />
+</LinearLayout>

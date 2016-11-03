@@ -102,7 +102,13 @@
         <activity android:name=".activity.LogisticsInformationDetailsActivity" />
         <activity android:name=".activity.LogisticsInformationRelease1Activity" />
         <activity android:name=".activity.LogisticsInformationRelease2Activity" />
-        <activity android:name=".activity.LogisticsInformationIncidentallyReleaseActivity"></activity>
+        <activity android:name=".activity.LogisticsInformationIncidentallyReleaseActivity" />
+        <activity android:name=".activity.SpecialtyListActivity" />
+        <activity
+            android:name=".activity.SpecialtyActivity"
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
+        <activity android:name=".activity.SpecialtyDetailsActivity" />
+        <activity android:name=".activity.SpecialtyFilterActivity"></activity>
     </application>
 
 </manifest>

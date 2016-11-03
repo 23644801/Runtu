@@ -88,10 +88,6 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
         banner.start();
     }
 
-    @OnClick(R.id.personal_center_Ll)
-    public void onClick() {
-        startActivity(new Intent(this, PersonalCenterActitity.class));
-    }
 
     @Override
     public void onPermissionsGranted(int requestCode, List<String> perms) {
@@ -126,7 +122,7 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
         }
     }
 
-    @OnClick({R.id.business_dynamics_LL, R.id.circulation_of_property_rights_LL, R.id.rural_tourism_LL, R.id.logistics_distribution_LL, R.id.entrepreneurship_training_LL, R.id.lsc_Iv,R.id.agricultural_machinery_Rl,R.id.ef_Iv})
+    @OnClick({R.id.personal_center_Ll, R.id.business_dynamics_LL, R.id.circulation_of_property_rights_LL, R.id.rural_tourism_LL, R.id.logistics_distribution_LL, R.id.entrepreneurship_training_LL, R.id.lsc_Iv, R.id.agricultural_machinery_Rl, R.id.ef_Iv, R.id.ses_Iv})
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.business_dynamics_LL:
@@ -153,8 +149,12 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
             case R.id.ef_Iv:
                 startActivity(new Intent(MainActivity.this, ExperienceFarmActivity.class));
                 break;
-
-
+            case R.id.ses_Iv:
+                startActivity(new Intent(MainActivity.this, SpecialtyActivity.class));
+                break;
+            case R.id.personal_center_Ll:
+                startActivity(new Intent(MainActivity.this, PersonalCenterActitity.class));
+                break;
         }
     }
 }
